@@ -1,0 +1,40 @@
+<svg viewBox="0 0 420 44" width="420" height="44" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 按钮纯白与极浅微白微渐变 -->
+    <linearGradient id="btnBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f8fafc" />
+    </linearGradient>
+
+    <!-- 苹果精细边框 -->
+    <linearGradient id="btnBorder" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e2e8f0" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+
+    <!-- 极轻微苹果悬浮投影 -->
+    <filter id="btnShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.04" />
+    </filter>
+  </defs>
+
+  <style>
+    .btn-font {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+  </style>
+
+  <!-- 胶囊底板 -->
+  <rect x="2" y="2" width="416" height="40" rx="20" fill="url(#btnBg)" stroke="url(#btnBorder)" stroke-width="1.2" filter="url(#btnShadow)" />
+
+  <!-- 探索指南文字 -->
+  <text x="195" y="26" class="btn-font" font-size="13.5" font-weight="600" fill="#0f172a" text-anchor="middle" letter-spacing="-0.2">
+    探索 52 套世界框架与深度交互指南
+  </text>
+
+  <!-- 苹果极简右箭头 Icon -->
+  <g transform="translate(350, 16)" stroke="#0284c7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <line x1="0" y1="6" x2="14" y2="6" />
+    <polyline points="9 1 14 6 9 11" />
+  </g>
+</svg>

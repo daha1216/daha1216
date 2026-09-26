@@ -23,7 +23,7 @@
 </p>
 
 <a href="https://github.com/daha1216/dsh-adult-tension">
-  <img src="./assets/button-explore.svg" alt="探索 52 套世界框架与深度交互指南" width="380" />
+  <img src="./assets/button-explore-v2.svg" alt="探索 52 套世界与交互指南" width="270" />
 </a>
 
 </div>
