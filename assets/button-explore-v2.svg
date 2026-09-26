@@ -19,7 +19,9 @@
 
   <style>
     .btn-text {
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Segoe UI", Helvetica, Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Inter", "PingFang SC", sans-serif;
+      letter-spacing: -0.25px;
+      -webkit-font-smoothing: antialiased;
     }
   </style>
 
