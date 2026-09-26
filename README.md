@@ -15,13 +15,11 @@
 <a href="https://github.com/daha1216/dsh-adult-tension">
   <img src="./assets/spotlight-v12.svg" alt="dsh-adult-tension" width="100%" />
 </a>
-
-<p align="center" style="margin-top: 14px; margin-bottom: 14px; line-height: 1;">
-  <a href="https://github.com/daha1216/dsh-adult-tension/stargazers">
-    <img src="./assets/badge-star-adult-tension.svg" alt="dsh-adult-tension stars" width="164" />
-  </a>
-</p>
-
+<br/>
+<a href="https://github.com/daha1216/dsh-adult-tension/stargazers">
+  <img src="./assets/badge-star-adult-tension.svg" alt="dsh-adult-tension stars" width="160" />
+</a>
+<br/>
 <a href="https://github.com/daha1216/dsh-adult-tension">
   <img src="./assets/button-explore-v2.svg" alt="探索 52 套世界与交互指南" width="270" />
 </a>
