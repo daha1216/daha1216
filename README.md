@@ -2,7 +2,9 @@
 
 # Hi there, I'm daha 👋
 
-### 🚀 DeepSeek Harness Ecosystem Builder · AI Agent & Interactive Fiction Architect
+<a href="https://github.com/daha1216">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=1000&color=38BDF8&center=true&vCenter=true&width=580&lines=DeepSeek+Harness+Ecosystem+Builder;Crafting+52-World+Living+NPC+%26+Tension+Engine;Active+Context+Pruning+(ACP)+%C2%B7+Model-Driven;Zero-Drift+YAML+State+Machine+%C2%B7+Open+Source" alt="Typing SVG" />
+</a>
 
 </div>
 
