@@ -4,12 +4,7 @@
 
 ### 🚀 DeepSeek Harness Ecosystem Builder · AI Agent & Interactive Fiction Architect
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Focus-DeepSeek%20Harness%20Ecosystem-4F46E5?style=for-the-badge&logo=deepseek&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flagship-dsh--adult--tension-critical?style=for-the-badge&logo=target" />
-  <img src="https://img.shields.io/badge/Agent-Context%20Pruning%20(ACP)-10B981?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Stack-TypeScript%20%7C%20Python%20%7C%20Node-blue?style=for-the-badge" />
-</p>
+
 
 </div>
 
