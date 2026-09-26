@@ -12,7 +12,7 @@
 <div align="center">
 
 <a href="https://github.com/daha1216/dsh-adult-tension">
-  <img src="./assets/spotlight-v8.svg" alt="dsh-adult-tension" width="100%" />
+  <img src="./assets/spotlight-v9.svg" alt="dsh-adult-tension" width="100%" />
 </a>
 
 <br/>
