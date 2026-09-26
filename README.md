@@ -4,8 +4,6 @@
 
 ### 🚀 DeepSeek Harness Ecosystem Builder · AI Agent & Interactive Fiction Architect
 
-
-
 </div>
 
 ---
