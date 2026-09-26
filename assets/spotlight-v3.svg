@@ -1,0 +1,160 @@
+<svg viewBox="0 0 860 300" width="860" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 苹果纯亮浅白极简底板 -->
+    <linearGradient id="pureWhiteBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f8fafc" />
+    </linearGradient>
+
+    <!-- 精致浅灰边框 -->
+    <linearGradient id="subtleBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e2e8f0" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+
+    <!-- 通透轻柔的晨曦多彩漫射光晕 -->
+    <linearGradient id="airyAura" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.22" />
+      <stop offset="35%" stop-color="#a78bfa" stop-opacity="0.25" />
+      <stop offset="70%" stop-color="#f472b6" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#fb923c" stop-opacity="0.18" />
+    </linearGradient>
+
+    <filter id="softDiffusal" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="40" result="blur" />
+    </filter>
+
+    <!-- 内嵌展台底板 -->
+    <linearGradient id="innerWhite" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#f1f5f9" stop-opacity="0.85" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-sf {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+
+    /* 苹果晨曦光晕轻微漂浮呼吸 */
+    @keyframes auraBreathe {
+      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.8; }
+      50% { transform: scale(1.12) translate(-15px, 8px); opacity: 1; }
+    }
+    .airy-aura-anim {
+      animation: auraBreathe 9s infinite ease-in-out;
+      transform-origin: 730px 80px;
+    }
+
+    /* 剧情对弈双幕平滑淡入淡出（无空档，平滑衔接） */
+    @keyframes storyCross1 {
+      0%, 46% { opacity: 1; transform: translateY(0); }
+      49%, 97% { opacity: 0; transform: translateY(-4px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes storyCross2 {
+      0%, 47% { opacity: 0; transform: translateY(4px); }
+      50%, 96% { opacity: 1; transform: translateY(0); }
+      99%, 100% { opacity: 0; transform: translateY(4px); }
+    }
+
+    .story-1 { animation: storyCross1 12s infinite ease-in-out; }
+    .story-2 { animation: storyCross2 12s infinite ease-in-out; }
+
+    /* 优雅清爽绿点呼吸 */
+    @keyframes cleanPulse {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 1; }
+    }
+    .clean-dot {
+      animation: cleanPulse 2.8s infinite ease-in-out;
+    }
+  </style>
+
+  <!-- 纯白亮色主卡片背景与极细微浅灰边线 -->
+  <rect x="2" y="2" width="856" height="296" rx="20" fill="url(#pureWhiteBg)" stroke="url(#subtleBorder)" stroke-width="1.5" />
+
+  <!-- 柔和晨曦环境漫射彩晕 -->
+  <g clip-path="url(#cardClipLight)">
+    <clipPath id="cardClipLight">
+      <rect x="2" y="2" width="856" height="296" rx="20" />
+    </clipPath>
+    <circle cx="730" cy="70" r="160" fill="url(#airyAura)" filter="url(#softDiffusal)" class="airy-aura-anim" />
+    <circle cx="80" cy="240" r="100" fill="#f0f9ff" opacity="0.6" filter="url(#softDiffusal)" />
+  </g>
+
+  <!-- 顶栏状态指示胶囊 -->
+  <g transform="translate(36, 28)">
+    <rect x="0" y="0" width="144" height="24" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+    <circle cx="12" cy="12" r="3.5" fill="#10b981" class="clean-dot" />
+    <text x="24" y="16" class="font-sf" font-size="11" font-weight="600" fill="#475569" letter-spacing="0.5">NARRATIVE ENGINE</text>
+  </g>
+
+  <!-- 顶栏右侧精致统计胶囊 -->
+  <g transform="translate(680, 28)">
+    <rect x="0" y="0" width="144" height="24" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+    <text x="72" y="16" class="font-sf" font-size="11" font-weight="600" fill="#64748b" text-anchor="middle">52 Worlds · Zero Drift</text>
+  </g>
+
+  <!-- 标题与副标题 -->
+  <text x="36" y="94" class="font-sf" font-size="28" font-weight="700" fill="#0f172a" letter-spacing="-0.6">dsh-adult-tension</text>
+  <text x="36" y="122" class="font-sf" font-size="14" font-weight="400" fill="#64748b" letter-spacing="-0.2">
+    高张力互动叙事 · 拒绝迎合的活人感 NPC · 18+ 深度破甲与长线世界推演
+  </text>
+
+  <!-- 次级展台（纯白透底配双层柔边） -->
+  <rect x="36" y="146" width="788" height="92" rx="12" fill="url(#innerWhite)" stroke="#e2e8f0" stroke-width="1" />
+
+  <!-- 场景一：盛唐长安 剧情切片 -->
+  <g class="story-1 font-sf">
+    <!-- 小标签：剧本实测 -->
+    <rect x="52" y="160" width="124" height="20" rx="6" fill="#ffe4e6" stroke="#fecdd3" stroke-width="0.8" />
+    <text x="114" y="174" font-size="11" font-weight="600" fill="#e11d48" text-anchor="middle">盛唐长安 · 沈青澜</text>
+
+    <text x="188" y="175" font-size="13" font-weight="500" fill="#1e293b">“今夜值守的明明不是你……站住。”（身后门闩已被她悄悄扣死）</text>
+
+    <!-- 小标签：系统推演 -->
+    <rect x="52" y="196" width="80" height="20" rx="6" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.8" />
+    <text x="92" y="210" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">抉择与推演</text>
+
+    <text x="144" y="211" font-size="13" font-weight="400" fill="#334155">近身按住门板要求暗账。NPC 触发利益防卫拒绝顺从，巡夜禁军正向此走来...</text>
+  </g>
+
+  <!-- 场景二：赛博边缘 利益博弈 -->
+  <g class="story-2 font-sf">
+    <!-- 小标签：剧本实测 -->
+    <rect x="52" y="160" width="132" height="20" rx="6" fill="#f3e8ff" stroke="#e9d5ff" stroke-width="0.8" />
+    <text x="118" y="174" font-size="11" font-weight="600" fill="#7c3aed" text-anchor="middle">赛博街区 · 边缘终端</text>
+
+    <text x="196" y="175" font-size="13" font-weight="500" fill="#1e293b">“接入协议失效了，你要的信息在我脑子里，别拿空支票糊弄我。”</text>
+
+    <!-- 小标签：系统推演 -->
+    <rect x="52" y="196" width="80" height="20" rx="6" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="0.8" />
+    <text x="92" y="210" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">抉择与推演</text>
+
+    <text x="144" y="211" font-size="13" font-weight="400" fill="#334155">全维 YAML 状态机无损沉淀立场变动，离屏推演机制持续追踪终端信号源...</text>
+  </g>
+
+  <!-- 底部 4 个精致浅彩微透药丸胶囊 -->
+  <g transform="translate(36, 256)" class="font-sf" font-size="12">
+    <!-- Tag 1: 活人感独立意志 (浅红微光) -->
+    <rect x="0" y="0" width="144" height="28" rx="14" fill="#ffffff" stroke="#fecdd3" stroke-width="1.2" />
+    <circle cx="16" cy="14" r="3.5" fill="#f43f5e" />
+    <text x="28" y="18" fill="#1e293b" font-weight="600">活人感独立意志</text>
+
+    <!-- Tag 2: 52 套深度世界库 (浅紫微光) -->
+    <rect x="156" y="0" width="154" height="28" rx="14" fill="#ffffff" stroke="#e9d5ff" stroke-width="1.2" />
+    <circle cx="172" cy="14" r="3.5" fill="#a855f7" />
+    <text x="184" y="18" fill="#1e293b" font-weight="600">52 套深度世界库</text>
+
+    <!-- Tag 3: 18+ 深度语境脱敏 (浅蓝微光) -->
+    <rect x="322" y="0" width="158" height="28" rx="14" fill="#ffffff" stroke="#bae6fd" stroke-width="1.2" />
+    <circle cx="338" cy="14" r="3.5" fill="#0284c7" />
+    <text x="350" y="18" fill="#1e293b" font-weight="600">18+ 深度语境脱敏</text>
+
+    <!-- Tag 4: 零漂移 YAML 状态机 (浅绿微光) -->
+    <rect x="492" y="0" width="168" height="28" rx="14" fill="#ffffff" stroke="#bbf7d0" stroke-width="1.2" />
+    <circle cx="508" cy="14" r="3.5" fill="#16a34a" />
+    <text x="520" y="18" fill="#1e293b" font-weight="600">零漂移 YAML 状态机</text>
+  </g>
+</svg>

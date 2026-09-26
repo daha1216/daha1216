@@ -15,7 +15,7 @@
 <div align="center">
 
 <a href="https://github.com/daha1216/dsh-adult-tension">
-  <img src="./assets/spotlight-white.svg?v=2" alt="dsh-adult-tension" width="100%" />
+  <img src="./assets/spotlight-v3.svg" alt="dsh-adult-tension" width="100%" />
 </a>
 
 <br/>
@@ -24,7 +24,7 @@
   <sub>轻量原子级 YAML 状态机 · 离屏推演长线不漂移 · 52 套世界随心开局</sub>
 </p>
 
-[**进入 dsh-adult-tension 探索 52 套世界名录与交互指南 →**](https://github.com/daha1216/dsh-adult-tension)
+[**📖 探索 52 套世界框架与深度交互指南 →**](https://github.com/daha1216/dsh-adult-tension)
 
 </div>
 
