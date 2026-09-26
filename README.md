@@ -53,4 +53,3 @@
 | ⏪ **时光机 / 回滚** | [**dsh-retrace**](https://github.com/daha1216/dsh-retrace) | 会话时光机：消息撤回、编辑重发、重新生成与工作区版本化 |
 | 👁️ **UI 与阅读增强** | [**dsh-better-display**](https://github.com/daha1216/dsh-better-display) | 沉浸式阅读视图：执行步骤智能折叠 + MCP-App 交互沙箱 |
 | 🎨 **个性化定制** | [**dsh-font-customizer**](https://github.com/daha1216/dsh-font-customizer) | 界面与代码字体定制插件，支持本机字体扫描与持久化 |
-
