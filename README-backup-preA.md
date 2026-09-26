@@ -22,9 +22,7 @@
   <sub>轻量原子级 YAML 状态机 · 离屏推演长线不漂移 · 52 套世界随心开局</sub>
 </p>
 
-<a href="https://github.com/daha1216/dsh-adult-tension">
-  <img src="./assets/button-explore.svg" alt="探索 52 套世界框架与深度交互指南" width="380" />
-</a>
+[**📖 探索 52 套世界框架与深度交互指南 →**](https://github.com/daha1216/dsh-adult-tension)
 
 </div>
 
