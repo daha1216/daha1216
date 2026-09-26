@@ -18,12 +18,6 @@
 
 <br/><br/>
 
-<p align="center" style="margin-top: 4px; margin-bottom: 14px;">
-  <a href="https://github.com/daha1216/dsh-adult-tension/stargazers">
-    <img src="https://img.shields.io/github/stars/daha1216/dsh-adult-tension?style=flat&label=%E2%98%85%20Star%20on%20GitHub&labelColor=ffffff&color=f0f9ff&logoColor=0284c7" alt="dsh-adult-tension stars" height="26" />
-  </a>
-</p>
-
 <a href="https://github.com/daha1216/dsh-adult-tension">
   <img src="./assets/button-explore-v2.svg" alt="探索 52 套世界与交互指南" width="270" />
 </a>
