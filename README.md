@@ -15,7 +15,7 @@
 <div align="center">
 
 <a href="https://github.com/daha1216/dsh-adult-tension">
-  <img src="https://raw.githubusercontent.com/daha1216/daha1216/main/assets/spotlight.svg" alt="dsh-adult-tension" width="100%" />
+  <img src="./assets/spotlight-white.svg?v=2" alt="dsh-adult-tension" width="100%" />
 </a>
 
 <br/>
