@@ -72,7 +72,7 @@
 | 资产文件 | 用途说明 | 核心规范特点 |
 | :--- | :--- | :--- |
 | `assets/spotlight-v13.svg` | 顶部旗舰叙事动态展台卡片 | 55% 冰川透蓝光晕、双幕无空档轮播、冷灰字阶 |
-| `assets/ecosystem-matrix-v6.svg` | DSH 生态矩阵卡片阵列 | 双列紧凑卡片、01-07 序号、冷灰文字、粗字徽章 |
+| `assets/ecosystem-matrix-v7.svg` | DSH 生态矩阵卡片阵列 | 双列紧凑卡片、01-07 序号、冷灰文字、粗字徽章 |
 | `assets/badge-star-adult-tension.svg` | dsh-adult-tension 实时 Star 勋章 | 苹果浅白底板、星标、67 Stars |
 | `assets/button-explore-v2.svg` | 探索 52 套世界与交互指南按钮 | 紧凑 270px、纯净白底冰蓝微光、居中排版 |
 | `assets/badges/btn-*-v2.svg` | 7 款生态项目快捷外链药丸按钮 | 统一 30px 高度、自带 `↗` 优雅直达角标 |

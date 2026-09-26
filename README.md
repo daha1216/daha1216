@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1 align="center" style="border-bottom: none; font-size: 32px; font-weight: 700; margin-bottom: 8px; color: #334155;">Hi there, I'm daha 👋</h1>
+<h1 align="center" style="border-bottom: none; font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'PingFang SC', sans-serif; font-size: 32px; font-weight: 700; margin-bottom: 8px; color: #334155;">Hi there, I'm daha 👋</h1>
 
 <a href="https://github.com/daha1216">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=1000&color=38BDF8&center=true&vCenter=true&width=580&lines=DeepSeek+Harness+Ecosystem+Builder;Crafting+52-World+Living+NPC+%26+Tension+Engine;Active+Context+Pruning+(ACP)+%C2%B7+Model-Driven;Zero-Drift+YAML+State+Machine+%C2%B7+Open+Source" alt="Typing SVG" />
@@ -13,7 +13,7 @@
 <div align="center">
 
 <a href="https://github.com/daha1216/dsh-adult-tension">
-  <img src="./assets/spotlight-v15.svg" alt="dsh-adult-tension" width="100%" />
+  <img src="./assets/spotlight-v16.svg" alt="dsh-adult-tension" width="100%" />
 </a>
 <sub>&nbsp;</sub><br/>
 <a href="https://github.com/daha1216/dsh-adult-tension/stargazers">
@@ -30,7 +30,7 @@
 
 <div align="center">
 
-<h2 align="center" style="border-bottom: none; font-size: 20px; font-weight: 700; margin-bottom: 6px; color: #334155;">
+<h2 align="center" style="border-bottom: none; font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'PingFang SC', sans-serif; font-size: 20px; font-weight: 700; margin-bottom: 6px; color: #334155;">
   🧩 DeepSeek Harness 生态矩阵
 </h2>
 
@@ -56,6 +56,6 @@
   <a href="https://github.com/daha1216/dsh-font-customizer"><img src="./assets/badges/btn-font-v2.svg" alt="dsh-font-customizer" height="30" /></a>
 </p>
 
-<img src="./assets/ecosystem-matrix-v6.svg" alt="DeepSeek Harness Ecosystem Matrix" width="100%" />
+<img src="./assets/ecosystem-matrix-v7.svg" alt="DeepSeek Harness Ecosystem Matrix" width="100%" />
 
 </div>

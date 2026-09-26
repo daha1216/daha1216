@@ -20,11 +20,11 @@
 
   <style>
     .font-star {
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif"SF Pro Text", "Inter", sans-serif;
       letter-spacing: -0.2px;
     }
     .font-num {
-      font-family: "JetBrains Mono", "SF Mono", "Fira Code", "Menlo", monospace;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif"JetBrains Mono", "SF Mono", "Fira Code", "Menlo", monospace;
       font-weight: 700;
     }
   </style>
