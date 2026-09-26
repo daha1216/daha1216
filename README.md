@@ -17,11 +17,6 @@
 ## 🎭 [dsh-adult-tension](https://github.com/daha1216/dsh-adult-tension)
 **面向高张力、强连续性、拒绝迎合的成人互动叙事与活人感 NPC 引擎**
 
-[![Host: DeepSeek Harness](https://img.shields.io/badge/Host-DeepSeek_Harness-blue?style=flat-square)](https://github.com/daha1216/dsh-adult-tension)
-[![Content: 18+ Adult RP](https://img.shields.io/badge/Content-18%2B_Adult_RP-critical?style=flat-square)](https://github.com/daha1216/dsh-adult-tension)
-[![World Frameworks: 52](https://img.shields.io/badge/World_Frameworks-52%E5%A5%97%E4%B8%96%E7%95%8C-8A2BE2?style=flat-square)](https://github.com/daha1216/dsh-adult-tension)
-[![State Engine: YAML-Driven](https://img.shields.io/badge/Engine-Zero_Drift_YAML-success?style=flat-square)](https://github.com/daha1216/dsh-adult-tension)
-
 </div>
 
 > 彻底告别机械顺从与工具人设定——内置语境脱敏与破甲叙事、52 套世界框架动态咬合、全维 YAML 结构化推演状态机，长线剧情不失忆、不重掷、不漂移。
