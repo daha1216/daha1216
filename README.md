@@ -56,6 +56,6 @@
   <a href="https://github.com/daha1216/dsh-font-customizer"><img src="./assets/badges/btn-font-v2.svg" alt="dsh-font-customizer" height="30" /></a>
 </p>
 
-<img src="./assets/ecosystem-matrix-v4.svg" alt="DeepSeek Harness Ecosystem Matrix" width="100%" />
+<img src="./assets/ecosystem-matrix-v5.svg" alt="DeepSeek Harness Ecosystem Matrix" width="100%" />
 
 </div>
