@@ -1,0 +1,128 @@
+<svg viewBox="0 0 860 480" width="860" height="480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 卡片纯白瓷质底板 -->
+    <linearGradient id="cardPlate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#fafbfc" />
+    </linearGradient>
+
+    <!-- 苹果精细微灰边框 -->
+    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e2e8f0" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+
+    <!-- 冰川透蓝轻柔环境漫射光 (55% Glacier Blue 主题) -->
+    <linearGradient id="matrixAura" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.14" />
+      <stop offset="55%" stop-color="#7dd3fc" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#c7d2fe" stop-opacity="0.08" />
+    </linearGradient>
+
+    <filter id="matrixBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="35" result="blur" />
+    </filter>
+  </defs>
+
+  <style>
+    .font-sf {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    .proj-card {
+      transition: all 0.3s ease;
+    }
+  </style>
+
+  <!-- 背景柔和冰川微光 -->
+  <g clip-path="url(#matrixClip)">
+    <clipPath id="matrixClip">
+      <rect x="0" y="0" width="860" height="480" rx="16" />
+    </clipPath>
+    <circle cx="800" cy="80" r="140" fill="url(#matrixAura)" filter="url(#matrixBlur)" />
+    <circle cx="60" cy="400" r="120" fill="#f0f9ff" opacity="0.6" filter="url(#matrixBlur)" />
+  </g>
+
+  <!-- ================= 第 1 行 (Row 1: y=10) ================= -->
+  <!-- 1.1 dsh-pocket -->
+  <g transform="translate(10, 10)">
+    <rect width="415" height="102" rx="14" fill="url(#cardPlate)" stroke="url(#cardBorder)" stroke-width="1.2" />
+    <!-- 类别微标 -->
+    <rect x="18" y="16" width="76" height="20" rx="5" fill="#f0f9ff" stroke="#bae6fd" stroke-width="0.8" />
+    <text x="56" y="30" class="font-sf" font-size="11" font-weight="600" fill="#0284c7" text-anchor="middle">移动跨端</text>
+    <!-- 项目名称 -->
+    <text x="104" y="31" class="font-sf" font-size="14.5" font-weight="700" fill="#0f172a">dsh-pocket</text>
+    <!-- 描述 -->
+    <text x="18" y="60" class="font-sf" font-size="12" font-weight="400" fill="#334155">把 DSH 装进口袋：手机扫码同步操控电脑端 DSH</text>
+    <text x="18" y="80" class="font-sf" font-size="11.5" font-weight="400" fill="#64748b">局域网 / 公网直连 · 移动端抽屉布局 · 随走随用</text>
+  </g>
+
+  <!-- 1.2 dsh-plugin-collection -->
+  <g transform="translate(435, 10)">
+    <rect width="415" height="102" rx="14" fill="url(#cardPlate)" stroke="url(#cardBorder)" stroke-width="1.2" />
+    <rect x="18" y="16" width="76" height="20" rx="5" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="0.8" />
+    <text x="56" y="30" class="font-sf" font-size="11" font-weight="600" fill="#16a34a" text-anchor="middle">生态枢纽</text>
+    <text x="104" y="31" class="font-sf" font-size="14.5" font-weight="700" fill="#0f172a">dsh-plugin-collection</text>
+    <text x="18" y="60" class="font-sf" font-size="12" font-weight="400" fill="#334155">DSH 第三方精选插件目录索引与一键安装平台</text>
+    <text x="18" y="80" class="font-sf" font-size="11.5" font-weight="400" fill="#64748b">自动化更新检查 · 独立作者仓库直达 · 模块化管理</text>
+  </g>
+
+  <!-- ================= 第 2 行 (Row 2: y=126) ================= -->
+  <!-- 2.1 deepseek-harness-desktop -->
+  <g transform="translate(10, 126)">
+    <rect width="415" height="102" rx="14" fill="url(#cardPlate)" stroke="url(#cardBorder)" stroke-width="1.2" />
+    <rect x="18" y="16" width="86" height="20" rx="5" fill="#f8fafc" stroke="#e2e8f0" stroke-width="0.8" />
+    <text x="61" y="30" class="font-sf" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">桌面客户端</text>
+    <text x="114" y="31" class="font-sf" font-size="14" font-weight="700" fill="#0f172a">deepseek-harness-desktop</text>
+    <text x="18" y="60" class="font-sf" font-size="12" font-weight="400" fill="#334155">专为 DSH 插件生态打造的现代化桌面级综合载体</text>
+    <text x="18" y="80" class="font-sf" font-size="11.5" font-weight="400" fill="#64748b">万物皆「插件」· 原生无缝融合 · 沉浸开发体验</text>
+  </g>
+
+  <!-- 2.2 billion-context-dsh -->
+  <g transform="translate(435, 126)">
+    <rect width="415" height="102" rx="14" fill="url(#cardPlate)" stroke="url(#cardBorder)" stroke-width="1.2" />
+    <rect x="18" y="16" width="86" height="20" rx="5" fill="#fef3c7" stroke="#fde68a" stroke-width="0.8" />
+    <text x="61" y="30" class="font-sf" font-size="11" font-weight="600" fill="#b45309" text-anchor="middle">上下文工程</text>
+    <text x="114" y="31" class="font-sf" font-size="14.5" font-weight="700" fill="#0f172a">billion-context-dsh</text>
+    <text x="18" y="60" class="font-sf" font-size="12" font-weight="400" fill="#334155">Active Context Pruning (ACP) 动态上下文精简方案</text>
+    <text x="18" y="80" class="font-sf" font-size="11.5" font-weight="400" fill="#64748b">模型驱动自动修剪 · 杜绝盲目摘要 · 极致节省 Token</text>
+  </g>
+
+  <!-- ================= 第 3 行 (Row 3: y=242) ================= -->
+  <!-- 3.1 dsh-retrace -->
+  <g transform="translate(10, 242)">
+    <rect width="415" height="102" rx="14" fill="url(#cardPlate)" stroke="url(#cardBorder)" stroke-width="1.2" />
+    <rect x="18" y="16" width="76" height="20" rx="5" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="0.8" />
+    <text x="56" y="30" class="font-sf" font-size="11" font-weight="600" fill="#7c3aed" text-anchor="middle">会话时光机</text>
+    <text x="104" y="31" class="font-sf" font-size="14.5" font-weight="700" fill="#0f172a">dsh-retrace</text>
+    <text x="18" y="60" class="font-sf" font-size="12" font-weight="400" fill="#334155">全能历史追踪：消息撤回、编辑重发与重新生成</text>
+    <text x="18" y="80" class="font-sf" font-size="11.5" font-weight="400" fill="#64748b">分支会话漫游 · 工作区快照追踪 · 探索零负担</text>
+  </g>
+
+  <!-- 3.2 dsh-better-display -->
+  <g transform="translate(435, 242)">
+    <rect width="415" height="102" rx="14" fill="url(#cardPlate)" stroke="url(#cardBorder)" stroke-width="1.2" />
+    <rect x="18" y="16" width="76" height="20" rx="5" fill="#e0f2fe" stroke="#bae6fd" stroke-width="0.8" />
+    <text x="56" y="30" class="font-sf" font-size="11" font-weight="600" fill="#0369a1" text-anchor="middle">UI 沉浸视图</text>
+    <text x="104" y="31" class="font-sf" font-size="14.5" font-weight="700" fill="#0f172a">dsh-better-display</text>
+    <text x="18" y="60" class="font-sf" font-size="12" font-weight="400" fill="#334155">深度阅读体验强化：执行步骤折叠与沙箱渲染</text>
+    <text x="18" y="80" class="font-sf" font-size="11.5" font-weight="400" fill="#64748b">智能折叠噪音工具日志 · MCP-App 沙箱深度嵌入</text>
+  </g>
+
+  <!-- ================= 第 4 行 (Row 4: y=358) ================= -->
+  <!-- 4.1 dsh-font-customizer -->
+  <g transform="translate(10, 358)">
+    <rect width="415" height="102" rx="14" fill="url(#cardPlate)" stroke="url(#cardBorder)" stroke-width="1.2" />
+    <rect x="18" y="16" width="76" height="20" rx="5" fill="#fdf2f8" stroke="#fbcfe8" stroke-width="0.8" />
+    <text x="56" y="30" class="font-sf" font-size="11" font-weight="600" fill="#db2777" text-anchor="middle">个性定制</text>
+    <text x="104" y="31" class="font-sf" font-size="14.5" font-weight="700" fill="#0f172a">dsh-font-customizer</text>
+    <text x="18" y="60" class="font-sf" font-size="12" font-weight="400" fill="#334155">界面与代码字体定制套件，呈现极致排版美学</text>
+    <text x="18" y="80" class="font-sf" font-size="11.5" font-weight="400" fill="#64748b">系统字体智能扫描 · 实时预览热替换 · 本地持久化</text>
+  </g>
+
+  <!-- 4.2 更多探索生态提示 -->
+  <g transform="translate(435, 358)">
+    <rect width="415" height="102" rx="14" fill="#fafbfc" stroke="#e2e8f0" stroke-width="1.2" stroke-dasharray="4 4" />
+    <text x="207" y="46" class="font-sf" font-size="13" font-weight="600" fill="#475569" text-anchor="middle">Building Open-Source Ecosystem</text>
+    <text x="207" y="70" class="font-sf" font-size="11.5" font-weight="400" fill="#94a3b8" text-anchor="middle">致力于打造好用、轻量、高可控的本地 AI Agent 生态</text>
+  </g>
+</svg>
