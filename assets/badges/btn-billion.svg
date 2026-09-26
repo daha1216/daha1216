@@ -1,4 +1,4 @@
-<svg viewBox="0 0 190 34" width="190" height="34" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 174 32" width="174" height="32" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#ffffff" />
@@ -17,11 +17,12 @@
       font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Helvetica, Arial, sans-serif;
     }
   </style>
-  <rect x="1" y="1" width="188" height="32" rx="16" fill="url(#bg)" stroke="url(#bd)" stroke-width="1.2" filter="url(#sh)" />
-  <text x="14" y="21" font-size="12">⚡</text>
-  <text x="36" y="21" class="font-btn" font-size="12" font-weight="600" fill="#0f172a" letter-spacing="-0.1">billion-context-dsh</text>
-  <g transform="translate(170, 12)" stroke="#0284c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none">
-    <line x1="0" y1="5" x2="8" y2="5" />
-    <polyline points="5 2 8 5 5 8" />
+  <rect x="1" y="1" width="172" height="30" rx="15" fill="url(#bg)" stroke="url(#bd)" stroke-width="1.1" filter="url(#sh)" />
+  <text x="12" y="20" font-size="12">⚡</text>
+  <text x="33" y="20" class="font-btn" font-size="12" font-weight="600" fill="#0f172a" letter-spacing="-0.1">billion-context-dsh</text>
+  <!-- 优雅的外部跳转图标 ↗ (External Link Glyph) -->
+  <g transform="translate(156, 10)" stroke="#0284c7" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M1 9L9 1" />
+    <path d="M3 1h6v6" />
   </g>
 </svg>

@@ -32,30 +32,28 @@
   🧩 DeepSeek Harness 生态矩阵
 </h2>
 
-<p align="center" style="font-size: 13px; color: #64748b; margin-top: 0; margin-bottom: 20px;">
+<p align="center" style="font-size: 13px; color: #64748b; margin-top: 0; margin-bottom: 18px;">
   致力于打造更好用、更轻量、更强大的本地 AI Agent 生态与交互体系
 </p>
 
+<!-- 紧凑苹果药丸导航按钮阵列（移至上半部分，带 ↗ 外链直达标） -->
+<p align="center">
+  <a href="https://github.com/daha1216/dsh-pocket"><img src="./assets/badges/btn-pocket.svg" alt="dsh-pocket" height="30" /></a>
+  &nbsp;
+  <a href="https://github.com/daha1216/dsh-plugin-collection"><img src="./assets/badges/btn-plugin.svg" alt="dsh-plugin-collection" height="30" /></a>
+  &nbsp;
+  <a href="https://github.com/daha1216/deepseek-harness-desktop"><img src="./assets/badges/btn-desktop.svg" alt="deepseek-harness-desktop" height="30" /></a>
+  &nbsp;
+  <a href="https://github.com/daha1216/billion-context-dsh"><img src="./assets/badges/btn-billion.svg" alt="billion-context-dsh" height="30" /></a>
+</p>
+<p align="center" style="margin-top: -6px; margin-bottom: 24px;">
+  <a href="https://github.com/daha1216/dsh-retrace"><img src="./assets/badges/btn-retrace.svg" alt="dsh-retrace" height="30" /></a>
+  &nbsp;
+  <a href="https://github.com/daha1216/dsh-better-display"><img src="./assets/badges/btn-display.svg" alt="dsh-better-display" height="30" /></a>
+  &nbsp;
+  <a href="https://github.com/daha1216/dsh-font-customizer"><img src="./assets/badges/btn-font.svg" alt="dsh-font-customizer" height="30" /></a>
+</p>
+
 <img src="./assets/ecosystem-matrix.svg" alt="DeepSeek Harness Ecosystem Matrix" width="100%" />
-
-<br/><br/>
-
-<!-- 苹果原生高质感快捷药丸按钮阵列 -->
-<p align="center">
-  <a href="https://github.com/daha1216/dsh-pocket"><img src="./assets/badges/btn-pocket.svg" alt="dsh-pocket" height="34" /></a>
-  &nbsp;
-  <a href="https://github.com/daha1216/dsh-plugin-collection"><img src="./assets/badges/btn-plugin.svg" alt="dsh-plugin-collection" height="34" /></a>
-  &nbsp;
-  <a href="https://github.com/daha1216/deepseek-harness-desktop"><img src="./assets/badges/btn-desktop.svg" alt="deepseek-harness-desktop" height="34" /></a>
-  &nbsp;
-  <a href="https://github.com/daha1216/billion-context-dsh"><img src="./assets/badges/btn-billion.svg" alt="billion-context-dsh" height="34" /></a>
-</p>
-<p align="center">
-  <a href="https://github.com/daha1216/dsh-retrace"><img src="./assets/badges/btn-retrace.svg" alt="dsh-retrace" height="34" /></a>
-  &nbsp;
-  <a href="https://github.com/daha1216/dsh-better-display"><img src="./assets/badges/btn-display.svg" alt="dsh-better-display" height="34" /></a>
-  &nbsp;
-  <a href="https://github.com/daha1216/dsh-font-customizer"><img src="./assets/badges/btn-font.svg" alt="dsh-font-customizer" height="34" /></a>
-</p>
 
 </div>
