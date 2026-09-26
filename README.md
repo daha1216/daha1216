@@ -13,7 +13,7 @@
 <div align="center">
 
 <a href="https://github.com/daha1216/dsh-adult-tension">
-  <img src="./assets/spotlight-v14.svg" alt="dsh-adult-tension" width="100%" />
+  <img src="./assets/spotlight-v15.svg" alt="dsh-adult-tension" width="100%" />
 </a>
 <sub>&nbsp;</sub><br/>
 <a href="https://github.com/daha1216/dsh-adult-tension/stargazers">
