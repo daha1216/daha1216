@@ -38,20 +38,20 @@
 
 <!-- 紧凑苹果药丸导航按钮阵列（移至上半部分，带 ↗ 外链直达标） -->
 <p align="center">
-  <a href="https://github.com/daha1216/dsh-pocket"><img src="./assets/badges/btn-pocket.svg" alt="dsh-pocket" height="30" /></a>
+  <a href="https://github.com/daha1216/dsh-pocket"><img src="./assets/badges/btn-pocket-v2.svg" alt="dsh-pocket" height="30" /></a>
   &nbsp;
-  <a href="https://github.com/daha1216/dsh-plugin-collection"><img src="./assets/badges/btn-plugin.svg" alt="dsh-plugin-collection" height="30" /></a>
+  <a href="https://github.com/daha1216/dsh-plugin-collection"><img src="./assets/badges/btn-plugin-v2.svg" alt="dsh-plugin-collection" height="30" /></a>
   &nbsp;
-  <a href="https://github.com/daha1216/deepseek-harness-desktop"><img src="./assets/badges/btn-desktop.svg" alt="deepseek-harness-desktop" height="30" /></a>
+  <a href="https://github.com/daha1216/deepseek-harness-desktop"><img src="./assets/badges/btn-desktop-v2.svg" alt="deepseek-harness-desktop" height="30" /></a>
   &nbsp;
-  <a href="https://github.com/daha1216/billion-context-dsh"><img src="./assets/badges/btn-billion.svg" alt="billion-context-dsh" height="30" /></a>
+  <a href="https://github.com/daha1216/billion-context-dsh"><img src="./assets/badges/btn-billion-v2.svg" alt="billion-context-dsh" height="30" /></a>
 </p>
 <p align="center" style="margin-top: -6px; margin-bottom: 24px;">
-  <a href="https://github.com/daha1216/dsh-retrace"><img src="./assets/badges/btn-retrace.svg" alt="dsh-retrace" height="30" /></a>
+  <a href="https://github.com/daha1216/dsh-retrace"><img src="./assets/badges/btn-retrace-v2.svg" alt="dsh-retrace" height="30" /></a>
   &nbsp;
-  <a href="https://github.com/daha1216/dsh-better-display"><img src="./assets/badges/btn-display.svg" alt="dsh-better-display" height="30" /></a>
+  <a href="https://github.com/daha1216/dsh-better-display"><img src="./assets/badges/btn-display-v2.svg" alt="dsh-better-display" height="30" /></a>
   &nbsp;
-  <a href="https://github.com/daha1216/dsh-font-customizer"><img src="./assets/badges/btn-font.svg" alt="dsh-font-customizer" height="30" /></a>
+  <a href="https://github.com/daha1216/dsh-font-customizer"><img src="./assets/badges/btn-font-v2.svg" alt="dsh-font-customizer" height="30" /></a>
 </p>
 
 <img src="./assets/ecosystem-matrix.svg" alt="DeepSeek Harness Ecosystem Matrix" width="100%" />
