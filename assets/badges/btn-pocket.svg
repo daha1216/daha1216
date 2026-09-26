@@ -1,0 +1,27 @@
+<svg viewBox="0 0 150 34" width="150" height="34" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f8fafc" />
+    </linearGradient>
+    <linearGradient id="bd" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e2e8f0" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#0f172a" flood-opacity="0.04" />
+    </filter>
+  </defs>
+  <style>
+    .font-btn {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+  </style>
+  <rect x="1" y="1" width="148" height="32" rx="16" fill="url(#bg)" stroke="url(#bd)" stroke-width="1.2" filter="url(#sh)" />
+  <text x="14" y="21" font-size="12">📱</text>
+  <text x="36" y="21" class="font-btn" font-size="12" font-weight="600" fill="#0f172a" letter-spacing="-0.1">dsh-pocket</text>
+  <g transform="translate(130, 12)" stroke="#0284c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <line x1="0" y1="5" x2="8" y2="5" />
+    <polyline points="5 2 8 5 5 8" />
+  </g>
+</svg>
