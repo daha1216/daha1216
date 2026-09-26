@@ -16,9 +16,9 @@
   <img src="./assets/spotlight-v12.svg" alt="dsh-adult-tension" width="100%" />
 </a>
 
-<p align="center" style="margin-top: 10px; margin-bottom: 12px;">
+<p align="center" style="margin-top: 14px; margin-bottom: 14px; line-height: 1;">
   <a href="https://github.com/daha1216/dsh-adult-tension/stargazers">
-    <img src="./assets/badge-star-adult-tension.svg" alt="dsh-adult-tension stars" width="168" />
+    <img src="./assets/badge-star-adult-tension.svg" alt="dsh-adult-tension stars" width="164" />
   </a>
 </p>
 
