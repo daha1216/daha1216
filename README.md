@@ -40,16 +40,22 @@
 
 <br/><br/>
 
-<!-- 优雅快捷入口胶囊列表 (纯净浅色微链接) -->
+<!-- 苹果原生高质感快捷药丸按钮阵列 -->
 <p align="center">
-  <a href="https://github.com/daha1216/dsh-pocket"><code>dsh-pocket</code></a> &nbsp;·&nbsp;
-  <a href="https://github.com/daha1216/dsh-plugin-collection"><code>dsh-plugin-collection</code></a> &nbsp;·&nbsp;
-  <a href="https://github.com/daha1216/deepseek-harness-desktop"><code>deepseek-harness-desktop</code></a> &nbsp;·&nbsp;
-  <a href="https://github.com/daha1216/billion-context-dsh"><code>billion-context-dsh</code></a>
-  <br/>
-  <a href="https://github.com/daha1216/dsh-retrace"><code>dsh-retrace</code></a> &nbsp;·&nbsp;
-  <a href="https://github.com/daha1216/dsh-better-display"><code>dsh-better-display</code></a> &nbsp;·&nbsp;
-  <a href="https://github.com/daha1216/dsh-font-customizer"><code>dsh-font-customizer</code></a>
+  <a href="https://github.com/daha1216/dsh-pocket"><img src="./assets/badges/btn-pocket.svg" alt="dsh-pocket" height="34" /></a>
+  &nbsp;
+  <a href="https://github.com/daha1216/dsh-plugin-collection"><img src="./assets/badges/btn-plugin.svg" alt="dsh-plugin-collection" height="34" /></a>
+  &nbsp;
+  <a href="https://github.com/daha1216/deepseek-harness-desktop"><img src="./assets/badges/btn-desktop.svg" alt="deepseek-harness-desktop" height="34" /></a>
+  &nbsp;
+  <a href="https://github.com/daha1216/billion-context-dsh"><img src="./assets/badges/btn-billion.svg" alt="billion-context-dsh" height="34" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/daha1216/dsh-retrace"><img src="./assets/badges/btn-retrace.svg" alt="dsh-retrace" height="34" /></a>
+  &nbsp;
+  <a href="https://github.com/daha1216/dsh-better-display"><img src="./assets/badges/btn-display.svg" alt="dsh-better-display" height="34" /></a>
+  &nbsp;
+  <a href="https://github.com/daha1216/dsh-font-customizer"><img src="./assets/badges/btn-font.svg" alt="dsh-font-customizer" height="34" /></a>
 </p>
 
 </div>
