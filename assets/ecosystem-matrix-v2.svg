@@ -29,10 +29,15 @@
   </defs>
 
   <style>
-    .font-sf {
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Inter", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+        .font-sf {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Inter", "PingFang SC", sans-serif;
       text-rendering: optimizeLegibility;
       -webkit-font-smoothing: antialiased;
+    }
+    .font-mono {
+      font-family: "JetBrains Mono", "SF Mono", "Fira Code", "Cascadia Code", "Menlo", "Consolas", monospace;
+      letter-spacing: -0.2px;
+      font-variant-numeric: tabular-nums;
     }
   </style>
 
@@ -52,7 +57,7 @@
     <rect x="16" y="14" width="82" height="24" rx="6" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1" />
     <text x="57" y="30.5" class="font-sf" font-size="12.5" font-weight="700" fill="#0284c7" text-anchor="middle">移动跨端</text>
     <text x="108" y="31" class="font-sf" font-size="15" font-weight="700" fill="#0f172a">dsh-pocket</text>
-    <text x="396" y="30" class="font-sf" font-size="13" font-weight="600" fill="#cbd5e1" text-anchor="end">01</text>
+    <text x="396" y="30" class="font-mono" font-size="12.5" font-weight="700" fill="#94a3b8" text-anchor="end">01</text>
     <text x="16" y="56" class="font-sf" font-size="12.5" font-weight="400" fill="#334155">把 DSH 装进口袋：手机扫码即可同步操控电脑端 DSH。</text>
     <text x="16" y="74" class="font-sf" font-size="11.8" font-weight="400" fill="#64748b">局域网 / 公网直连 · 移动端抽屉布局 · 随时随地呼出控制。</text>
   </g>
@@ -63,7 +68,7 @@
     <rect x="16" y="14" width="82" height="24" rx="6" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1" />
     <text x="57" y="30.5" class="font-sf" font-size="12.5" font-weight="700" fill="#16a34a" text-anchor="middle">生态枢纽</text>
     <text x="108" y="31" class="font-sf" font-size="15" font-weight="700" fill="#0f172a">dsh-plugin-collection</text>
-    <text x="396" y="30" class="font-sf" font-size="13" font-weight="600" fill="#cbd5e1" text-anchor="end">02</text>
+    <text x="396" y="30" class="font-mono" font-size="12.5" font-weight="700" fill="#94a3b8" text-anchor="end">02</text>
     <text x="16" y="56" class="font-sf" font-size="12.5" font-weight="400" fill="#334155">DSH 第三方精选插件目录索引，官方与社区一键安装平台。</text>
     <text x="16" y="74" class="font-sf" font-size="11.8" font-weight="400" fill="#64748b">自动化更新检查 · 独立作者仓库直达 · 插件安全模块化管理。</text>
   </g>
@@ -75,7 +80,7 @@
     <rect x="16" y="14" width="94" height="24" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
     <text x="63" y="30.5" class="font-sf" font-size="12.5" font-weight="700" fill="#475569" text-anchor="middle">桌面客户端</text>
     <text x="118" y="31" class="font-sf" font-size="15" font-weight="700" fill="#0f172a">deepseek-harness-desktop</text>
-    <text x="396" y="30" class="font-sf" font-size="13" font-weight="600" fill="#cbd5e1" text-anchor="end">03</text>
+    <text x="396" y="30" class="font-mono" font-size="12.5" font-weight="700" fill="#94a3b8" text-anchor="end">03</text>
     <text x="16" y="56" class="font-sf" font-size="12.5" font-weight="400" fill="#334155">专为 DSH 插件生态打造的现代化跨平台桌面级综合载体。</text>
     <text x="16" y="74" class="font-sf" font-size="11.8" font-weight="400" fill="#64748b">万物皆「插件」· 原生系统深度融合 · 沉浸丝滑开发体验。</text>
   </g>
@@ -86,7 +91,7 @@
     <rect x="16" y="14" width="94" height="24" rx="6" fill="#fef3c7" stroke="#fde68a" stroke-width="1" />
     <text x="63" y="30.5" class="font-sf" font-size="12.5" font-weight="700" fill="#b45309" text-anchor="middle">上下文工程</text>
     <text x="118" y="31" class="font-sf" font-size="15" font-weight="700" fill="#0f172a">billion-context-dsh</text>
-    <text x="396" y="30" class="font-sf" font-size="13" font-weight="600" fill="#cbd5e1" text-anchor="end">04</text>
+    <text x="396" y="30" class="font-mono" font-size="12.5" font-weight="700" fill="#94a3b8" text-anchor="end">04</text>
     <text x="16" y="56" class="font-sf" font-size="12.5" font-weight="400" fill="#334155">Active Context Pruning (ACP) 核心动态上下文精简方案。</text>
     <text x="16" y="74" class="font-sf" font-size="11.8" font-weight="400" fill="#64748b">模型驱动自动修剪 · 杜绝盲目摘要 · 极致节省 Token 预算。</text>
   </g>
@@ -98,7 +103,7 @@
     <rect x="16" y="14" width="94" height="24" rx="6" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1" />
     <text x="63" y="30.5" class="font-sf" font-size="12.5" font-weight="700" fill="#7c3aed" text-anchor="middle">会话时光机</text>
     <text x="118" y="31" class="font-sf" font-size="15" font-weight="700" fill="#0f172a">dsh-retrace</text>
-    <text x="396" y="30" class="font-sf" font-size="13" font-weight="600" fill="#cbd5e1" text-anchor="end">05</text>
+    <text x="396" y="30" class="font-mono" font-size="12.5" font-weight="700" fill="#94a3b8" text-anchor="end">05</text>
     <text x="16" y="56" class="font-sf" font-size="12.5" font-weight="400" fill="#334155">全能历史追踪：消息智能撤回、编辑重发与重新连续生成。</text>
     <text x="16" y="74" class="font-sf" font-size="11.8" font-weight="400" fill="#64748b">分支会话自由漫游 · 工作区快照追踪 · 复杂探索零负担。</text>
   </g>
@@ -109,7 +114,7 @@
     <rect x="16" y="14" width="94" height="24" rx="6" fill="#e0f2fe" stroke="#bae6fd" stroke-width="1" />
     <text x="63" y="30.5" class="font-sf" font-size="12.5" font-weight="700" fill="#0369a1" text-anchor="middle">UI 沉浸视图</text>
     <text x="118" y="31" class="font-sf" font-size="15" font-weight="700" fill="#0f172a">dsh-better-display</text>
-    <text x="396" y="30" class="font-sf" font-size="13" font-weight="600" fill="#cbd5e1" text-anchor="end">06</text>
+    <text x="396" y="30" class="font-mono" font-size="12.5" font-weight="700" fill="#94a3b8" text-anchor="end">06</text>
     <text x="16" y="56" class="font-sf" font-size="12.5" font-weight="400" fill="#334155">深度阅读体验强化：执行步骤智能折叠与沉浸式交互沙箱。</text>
     <text x="16" y="74" class="font-sf" font-size="11.8" font-weight="400" fill="#64748b">智能折叠噪音工具日志 · MCP-App 沙箱深度原生嵌入展示。</text>
   </g>
@@ -121,7 +126,7 @@
     <rect x="16" y="14" width="82" height="24" rx="6" fill="#fdf2f8" stroke="#fbcfe8" stroke-width="1" />
     <text x="57" y="30.5" class="font-sf" font-size="12.5" font-weight="700" fill="#db2777" text-anchor="middle">个性定制</text>
     <text x="108" y="31" class="font-sf" font-size="15" font-weight="700" fill="#0f172a">dsh-font-customizer</text>
-    <text x="396" y="30" class="font-sf" font-size="13" font-weight="600" fill="#cbd5e1" text-anchor="end">07</text>
+    <text x="396" y="30" class="font-mono" font-size="12.5" font-weight="700" fill="#94a3b8" text-anchor="end">07</text>
     <text x="16" y="56" class="font-sf" font-size="12.5" font-weight="400" fill="#334155">界面与代码字体定制套件，呈现极其纯粹的排版视觉美学。</text>
     <text x="16" y="74" class="font-sf" font-size="11.8" font-weight="400" fill="#64748b">系统字体智能扫描 · 实时预览热替换 · 本地持久化储存。</text>
   </g>
