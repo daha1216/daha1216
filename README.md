@@ -9,9 +9,6 @@
 </div>
 
 ---
-
-### 🔥 旗舰精选 / Featured Spotlight
-
 <div align="center">
 
 <a href="https://github.com/daha1216/dsh-adult-tension">
