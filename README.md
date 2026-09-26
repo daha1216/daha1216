@@ -54,25 +54,3 @@
 | 👁️ **UI 与阅读增强** | [**dsh-better-display**](https://github.com/daha1216/dsh-better-display) | 沉浸式阅读视图：执行步骤智能折叠 + MCP-App 交互沙箱 |
 | 🎨 **个性化定制** | [**dsh-font-customizer**](https://github.com/daha1216/dsh-font-customizer) | 界面与代码字体定制插件，支持本机字体扫描与持久化 |
 
----
-
-### 🛠️ 技术栈与工具箱
-
-- **Agent & Systems:** DeepSeek Harness (DSH), Agent Protocol, Active Context Pruning (ACP), State Machine Engine
-- **Languages:** TypeScript, JavaScript, Python, PowerShell, Shell
-- **Clients & Frameworks:** Modern Web, Electron, Mobile Web Responsive, Vue, React
-
----
-
-### 📈 GitHub 动态
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=daha1216&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=daha1216&layout=compact&theme=tokyonight&hide_border=true" />
-</div>
-
----
-
-<div align="center">
-  <sub>Built with enthusiasm for open source and local AI agent tooling.</sub>
-</div>
