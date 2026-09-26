@@ -14,30 +14,15 @@
 
 <div align="center">
 
-## 🎭 [dsh-adult-tension](https://github.com/daha1216/dsh-adult-tension)
+<a href="https://github.com/daha1216/dsh-adult-tension">
+  <img src="https://raw.githubusercontent.com/daha1216/daha1216/main/assets/spotlight.svg" alt="dsh-adult-tension animated card" width="100%" />
+</a>
 
-**面向高张力、强连续性、拒绝迎合的成人互动叙事与活人感 NPC 引擎**
-
-<p>
-彻底告别机械顺从与工具人设定 · 内置语境深度脱敏 · 全维 YAML 零漂移状态机
+<p align="center">
+  <kbd>开局，盛唐长安 压力模式</kbd> &nbsp;·&nbsp; <kbd>开局，赛博街区</kbd> &nbsp;·&nbsp; <kbd>开局，自拟全新世界</kbd>
 </p>
 
-</div>
-
-| 核心维度 | 机制突破 | 实际沉浸质感 |
-| :--- | :--- | :--- |
-| **🧠 活人感 NPC** | 独立记忆与利益立场，拒绝机械迎合 | 会试探、犹豫、抗拒甚至暗中布局，绝非顺从工具人 |
-| **🔓 自带深度破甲** | 语境深度脱敏，打破机械道德说教 | 尺度全面放开，直面高张力冲突与情感博弈，文字考究不露骨 |
-| **🌐 52 套世界框架** | 上千项时代风土与微观素材深度动态咬合 | 盛唐夜市 · 幕末京都 · 芝加哥黑帮 · 赛博边缘 · 都市暗流 |
-| **⏳ 全维原点续玩** | 轻量原子级 YAML 结构化状态推演 | 离屏事件自然推进，支持多分支随时命名保存，长线剧情不漂移 |
-
-<div align="center">
-
-```text
-开局指令 ──> "开局，盛唐长安 压力模式"   /   "开局，赛博街区"
-```
-
-[**📖 点击探索 52 套世界完整名录与游玩文档 »**](https://github.com/daha1216/dsh-adult-tension)
+[**👉 查看完整项目与 52 套世界名录 »**](https://github.com/daha1216/dsh-adult-tension)
 
 </div>
 

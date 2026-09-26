@@ -1,0 +1,152 @@
+<svg viewBox="0 0 800 240" width="800" height="240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 背景渐变 -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+
+    <!-- 顶部动态霓虹流光渐变 -->
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="25%" stop-color="#818cf8" />
+      <stop offset="50%" stop-color="#c084fc" />
+      <stop offset="75%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <!-- 边框微妙渐变 -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#30363d" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.4" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-base {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    .font-mono {
+      font-family: 'SF Mono', Consolas, 'Fira Code', 'Liberation Mono', Menlo, Courier, monospace;
+    }
+
+    /* 顶部流光跑马灯动画 */
+    @keyframes flowAnim {
+      0% { transform: translateX(-400px); }
+      100% { transform: translateX(800px); }
+    }
+    .glow-runner {
+      animation: flowAnim 4s linear infinite;
+    }
+
+    /* 呼吸灯动画 */
+    @keyframes pulseDot {
+      0%, 100% { opacity: 0.3; transform: scale(0.9); }
+      50% { opacity: 1; transform: scale(1.2); }
+    }
+    .pulse-elem {
+      transform-origin: 220px 28px;
+      animation: pulseDot 2.2s infinite ease-in-out;
+    }
+
+    /* 三幕动态轮播切换动画 */
+    @keyframes scene1 {
+      0%, 2% { opacity: 0; transform: translateY(4px); }
+      5%, 28% { opacity: 1; transform: translateY(0); }
+      32%, 100% { opacity: 0; transform: translateY(-4px); }
+    }
+    @keyframes scene2 {
+      0%, 33% { opacity: 0; transform: translateY(4px); }
+      36%, 61% { opacity: 1; transform: translateY(0); }
+      65%, 100% { opacity: 0; transform: translateY(-4px); }
+    }
+    @keyframes scene3 {
+      0%, 66% { opacity: 0; transform: translateY(4px); }
+      69%, 94% { opacity: 1; transform: translateY(0); }
+      98%, 100% { opacity: 0; transform: translateY(-4px); }
+    }
+
+    .scene-1 { animation: scene1 12s infinite; }
+    .scene-2 { animation: scene2 12s infinite; }
+    .scene-3 { animation: scene3 12s infinite; }
+  </style>
+
+  <!-- 卡片主背景与圆角 -->
+  <rect x="1" y="1" width="798" height="238" rx="14" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5" />
+
+  <!-- 顶部霓虹光条容器与跑马灯 -->
+  <g clip-path="url(#topClip)">
+    <clipPath id="topClip">
+      <rect x="1" y="1" width="798" height="6" rx="3" />
+    </clipPath>
+    <rect x="0" y="1" width="400" height="3" fill="url(#glowGrad)" class="glow-runner" />
+  </g>
+
+  <!-- 顶部视窗红黄绿三圆点 -->
+  <circle cx="28" cy="28" r="5" fill="#ff5f56" />
+  <circle cx="44" cy="28" r="5" fill="#ffbd2e" />
+  <circle cx="60" cy="28" r="5" fill="#27c93f" />
+
+  <!-- 顶栏状态指示器与文字 -->
+  <circle cx="220" cy="28" r="4" fill="#10b981" class="pulse-elem" />
+  <text x="232" y="32" class="font-mono" font-size="11" fill="#7dd3fc" letter-spacing="1">NARRATIVE ENGINE // LIVE CONFLICT ACTIVE</text>
+  <text x="770" y="32" text-anchor="end" class="font-mono" font-size="11" fill="#484f58">v3.0.0-RELEASE</text>
+
+  <!-- 分割线 -->
+  <line x1="20" y1="46" x2="780" y2="46" stroke="#21262d" stroke-width="1" />
+
+  <!-- 标题区 -->
+  <text x="24" y="78" class="font-base" font-size="20" font-weight="700" fill="#f0f6fc">🎭 dsh-adult-tension</text>
+  <text x="240" y="77" class="font-base" font-size="13" fill="#8b949e">18+ 活人感 NPC · 拒绝迎合 · 深度破甲叙事引擎</text>
+
+  <!-- 终端视窗底框 -->
+  <rect x="20" y="96" width="760" height="84" rx="8" fill="#030712" stroke="#1f2937" stroke-width="1" />
+
+  <!-- 第一幕：现场实战对弈 -->
+  <g class="scene-1 font-mono" font-size="12">
+    <text x="36" y="124" fill="#f43f5e" font-weight="bold">[盛唐长安 · 沈青澜]</text>
+    <text x="180" y="124" fill="#e5e7eb">“今夜值守的明明不是你……站住。”（身后门闩已被她悄悄插死）</text>
+    <text x="36" y="154" fill="#38bdf8" font-weight="bold">[玩家抉择博弈]</text>
+    <text x="145" y="154" fill="#9ca3af">反手按住门板，近身逼近：“把账本交出来，或者我现在带你出去。”</text>
+  </g>
+
+  <!-- 第二幕：引擎深度判定 -->
+  <g class="scene-2 font-mono" font-size="12">
+    <text x="36" y="124" fill="#a855f7" font-weight="bold">[⚡ 活人感独立意志]</text>
+    <text x="175" y="124" fill="#e5e7eb">利益受胁，触发抗拒与探底机制，坚决拒绝机械顺从！</text>
+    <text x="36" y="154" fill="#f59e0b" font-weight="bold">[⏳ 离屏自主推演]</text>
+    <text x="160" y="154" fill="#9ca3af">巡夜禁军正向卷宗库走来，剩余时间仅剩 2 分钟，剧情无缝推进...</text>
+  </g>
+
+  <!-- 第三幕：底层技术支撑 -->
+  <g class="scene-3 font-mono" font-size="12">
+    <text x="36" y="124" fill="#10b981" font-weight="bold">[🌐 52 套世界框架]</text>
+    <text x="175" y="124" fill="#e5e7eb">盛唐夜市 · 幕末京都 · 芝加哥黑帮 · 赛博边缘 · 都市暗流...</text>
+    <text x="36" y="154" fill="#38bdf8" font-weight="bold">[💾 零漂移状态机]</text>
+    <text x="160" y="154" fill="#9ca3af">全维原子级 YAML 存档，原点随时继续，多分支绝不遗忘。</text>
+  </g>
+
+  <!-- 底部微型徽章胶囊 -->
+  <g transform="translate(20, 196)" class="font-mono" font-size="11">
+    <!-- Tag 1 -->
+    <rect x="0" y="0" width="150" height="24" rx="12" fill="#1f2937" stroke="#38bdf8" stroke-opacity="0.4" />
+    <text x="75" y="16" fill="#38bdf8" text-anchor="middle">52 World Frameworks</text>
+
+    <!-- Tag 2 -->
+    <rect x="160" y="0" width="168" height="24" rx="12" fill="#1f2937" stroke="#374151" />
+    <text x="244" y="16" fill="#9ca3af" text-anchor="middle">Living-NPC Intelligence</text>
+
+    <!-- Tag 3 -->
+    <rect x="338" y="0" width="160" height="24" rx="12" fill="#1f2937" stroke="#a855f7" stroke-opacity="0.4" />
+    <text x="418" y="16" fill="#c084fc" text-anchor="middle">Zero-Drift YAML State</text>
+
+    <!-- Tag 4 -->
+    <rect x="508" y="0" width="130" height="24" rx="12" fill="#1f2937" stroke="#374151" />
+    <text x="573" y="16" fill="#9ca3af" text-anchor="middle">Uncensored Tension</text>
+
+    <!-- Tag 5 -->
+    <rect x="648" y="0" width="112" height="24" rx="12" fill="#1f2937" stroke="#10b981" stroke-opacity="0.4" />
+    <text x="704" y="16" fill="#34d399" text-anchor="middle">DeepSeek Skill</text>
+  </g>
+</svg>
