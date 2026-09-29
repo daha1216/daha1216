@@ -1,0 +1,141 @@
+<svg viewBox="0 0 1240 270" width="1240" height="270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="旗舰模块 dsh-adult-tension">
+  <defs>
+    <linearGradient id="boardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0C352A"/><stop offset="1" stop-color="#092A21"/>
+    </linearGradient>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E5534B" stop-opacity="0"/>
+      <stop offset="1" stop-color="#E5534B"/>
+    </linearGradient>
+    <filter id="glow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- 基板 -->
+  <rect x="1.5" y="1.5" width="1237" height="267" rx="14" fill="url(#boardBg)" stroke="#051713" stroke-width="3"/>
+  <rect x="24" y="24" width="1192" height="222" rx="10" fill="none" stroke="#1D5446" stroke-width="1.2"/>
+
+  <!-- 安装孔 -->
+  <g>
+    <circle cx="40" cy="40" r="9" fill="none" stroke="#C9924C" stroke-width="3.5"/><circle cx="40" cy="40" r="4.2" fill="#051713"/>
+    <circle cx="1200" cy="40" r="9" fill="none" stroke="#C9924C" stroke-width="3.5"/><circle cx="1200" cy="40" r="4.2" fill="#051713"/>
+    <circle cx="40" cy="230" r="9" fill="none" stroke="#C9924C" stroke-width="3.5"/><circle cx="40" cy="230" r="4.2" fill="#051713"/>
+    <circle cx="1200" cy="230" r="9" fill="none" stroke="#C9924C" stroke-width="3.5"/><circle cx="1200" cy="230" r="4.2" fill="#051713"/>
+  </g>
+
+  <!-- 丝印角标 -->
+  <g font-family="'Cascadia Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" fill="#93B7A5" font-size="10" letter-spacing="1.5">
+    <text x="62" y="44">MODULE: NARRATIVE ENGINE</text>
+    <text x="1178" y="44" text-anchor="end">EST. 2026-07</text>
+    <text x="62" y="252">CAUTION: 18+ CONTENT · UNDER TENSION</text>
+    <text x="1178" y="252" text-anchor="end">REV 4.3</text>
+  </g>
+
+  <!-- 左：模块本体 -->
+  <g>
+    <rect x="48" y="56" width="604" height="176" rx="10" fill="#0A2E24" stroke="#2E6B58" stroke-width="1.6"/>
+    <rect x="38" y="76" width="10" height="10" fill="#C9924C"/><rect x="38" y="106" width="10" height="10" fill="#C9924C"/>
+    <rect x="38" y="136" width="10" height="10" fill="#C9924C"/><rect x="38" y="166" width="10" height="10" fill="#C9924C"/>
+    <rect x="38" y="196" width="10" height="10" fill="#C9924C"/>
+    <g font-family="'Cascadia Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace">
+      <text x="76" y="88" font-size="12" fill="#C9924C" letter-spacing="3">FLAGSHIP MODULE · U0</text>
+      <text x="76" y="126" font-size="33" font-weight="700" fill="#EAF5EE">dsh-adult-tension</text>
+    </g>
+    <text x="76" y="156" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#EAF5EE">深流叙事引擎 · 52 个自行运转的世界</text>
+    <!-- 丝印标签 -->
+    <g font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="12.5" fill="#93B7A5">
+      <rect x="76" y="172" width="112" height="26" rx="13" fill="none" stroke="#2E6B58" stroke-width="1.2"/>
+      <text x="132" y="189" text-anchor="middle">活人感 NPC</text>
+      <rect x="200" y="172" width="178" height="26" rx="13" fill="none" stroke="#2E6B58" stroke-width="1.2"/>
+      <text x="289" y="189" text-anchor="middle">自主决策 · 拒绝迎合</text>
+      <rect x="390" y="172" width="136" height="26" rx="13" fill="none" stroke="#2E6B58" stroke-width="1.2"/>
+      <text x="458" y="189" text-anchor="middle">YAML 全维存档</text>
+    </g>
+    <!-- 状态灯 + 18+ -->
+    <circle cx="80" cy="216" r="3.2" fill="#E5534B" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="94" y="220" font-family="'Cascadia Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="10" fill="#93B7A5" letter-spacing="2">ACT · WORLDS RUNNING</text>
+    <rect x="542" y="204" width="86" height="24" rx="4" fill="none" stroke="#E5534B" stroke-width="1.4"/>
+    <text x="585" y="220" text-anchor="middle" font-family="'Cascadia Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="12" font-weight="700" fill="#E5534B" letter-spacing="2">18+</text>
+  </g>
+
+  <!-- 走线连接刻度盘 -->
+  <path d="M652 200 H764 L792 172 H852" stroke="#C9924C" stroke-width="2.2" fill="none"/>
+  <circle cx="792" cy="172" r="2.8" fill="#C9924C"/><circle cx="792" cy="172" r="1.2" fill="#051713"/>
+
+  <!-- 右：52 世界刻度盘 -->
+  <g>
+    <circle cx="935.0" cy="139.0" r="90" fill="none" stroke="#1D5446" stroke-width="1.2"/>
+    <g stroke="#93B7A5" stroke-width="1.6">
+    <line x1="935.0" y1="65.0" x2="935.0" y2="55.0"/>
+    <line x1="943.9" y1="65.5" x2="945.1" y2="55.6"/>
+    <line x1="952.7" y1="67.2" x2="955.1" y2="57.4"/>
+    <line x1="961.2" y1="69.8" x2="964.8" y2="60.5"/>
+    <line x1="969.4" y1="73.5" x2="974.0" y2="64.6"/>
+    <line x1="977.0" y1="78.1" x2="982.7" y2="69.9"/>
+    <line x1="984.1" y1="83.6" x2="990.7" y2="76.1"/>
+    <line x1="990.4" y1="89.9" x2="997.9" y2="83.3"/>
+    <line x1="995.9" y1="97.0" x2="1004.1" y2="91.3"/>
+    <line x1="1000.5" y1="104.6" x2="1009.4" y2="100.0"/>
+    <line x1="1004.2" y1="112.8" x2="1013.5" y2="109.2"/>
+    <line x1="1006.8" y1="121.3" x2="1016.6" y2="118.9"/>
+    <line x1="1008.5" y1="130.1" x2="1018.4" y2="128.9"/>
+    <line x1="1009.0" y1="139.0" x2="1019.0" y2="139.0"/>
+    <line x1="1008.5" y1="147.9" x2="1018.4" y2="149.1"/>
+    <line x1="1006.8" y1="156.7" x2="1016.6" y2="159.1"/>
+    <line x1="1004.2" y1="165.2" x2="1013.5" y2="168.8"/>
+    <line x1="1000.5" y1="173.4" x2="1009.4" y2="178.0"/>
+    <line x1="995.9" y1="181.0" x2="1004.1" y2="186.7"/>
+    <line x1="990.4" y1="188.1" x2="997.9" y2="194.7"/>
+    <line x1="984.1" y1="194.4" x2="990.7" y2="201.9"/>
+    <line x1="977.0" y1="199.9" x2="982.7" y2="208.1"/>
+    <line x1="969.4" y1="204.5" x2="974.0" y2="213.4"/>
+    <line x1="961.2" y1="208.2" x2="964.8" y2="217.5"/>
+    <line x1="952.7" y1="210.8" x2="955.1" y2="220.6"/>
+    <line x1="943.9" y1="212.5" x2="945.1" y2="222.4"/>
+    <line x1="935.0" y1="213.0" x2="935.0" y2="223.0"/>
+    <line x1="926.1" y1="212.5" x2="924.9" y2="222.4"/>
+    <line x1="917.3" y1="210.8" x2="914.9" y2="220.6"/>
+    <line x1="908.8" y1="208.2" x2="905.2" y2="217.5"/>
+    <line x1="900.6" y1="204.5" x2="896.0" y2="213.4"/>
+    <line x1="893.0" y1="199.9" x2="887.3" y2="208.1"/>
+    <line x1="885.9" y1="194.4" x2="879.3" y2="201.9"/>
+    <line x1="879.6" y1="188.1" x2="872.1" y2="194.7"/>
+    <line x1="874.1" y1="181.0" x2="865.9" y2="186.7"/>
+    <line x1="869.5" y1="173.4" x2="860.6" y2="178.0"/>
+    <line x1="865.8" y1="165.2" x2="856.5" y2="168.8"/>
+    <line x1="863.2" y1="156.7" x2="853.4" y2="159.1"/>
+    <line x1="861.5" y1="147.9" x2="851.6" y2="149.1"/>
+    <line x1="861.0" y1="139.0" x2="851.0" y2="139.0"/>
+    <line x1="861.5" y1="130.1" x2="851.6" y2="128.9"/>
+    <line x1="863.2" y1="121.3" x2="853.4" y2="118.9"/>
+    <line x1="865.8" y1="112.8" x2="856.5" y2="109.2"/>
+    <line x1="869.5" y1="104.6" x2="860.6" y2="100.0"/>
+    <line x1="874.1" y1="97.0" x2="865.9" y2="91.3"/>
+    <line x1="879.6" y1="89.9" x2="872.1" y2="83.3"/>
+    <line x1="885.9" y1="83.6" x2="879.3" y2="76.1"/>
+    <line x1="893.0" y1="78.1" x2="887.3" y2="69.9"/>
+    <line x1="900.6" y1="73.5" x2="896.0" y2="64.6"/>
+    <line x1="908.8" y1="69.8" x2="905.2" y2="60.5"/>
+    <line x1="917.3" y1="67.2" x2="914.9" y2="57.4"/>
+    <line x1="926.1" y1="65.5" x2="924.9" y2="55.6"/>
+    </g>
+    <g stroke-linecap="round">
+    <line x1="987.4" y1="92.6" x2="997.9" y2="83.3" stroke="#E5534B" stroke-width="3"><animate attributeName="opacity" values="1;0.15;1" dur="2.9s" begin="2.59s" repeatCount="indefinite"/></line>
+    <line x1="959.8" y1="204.5" x2="964.8" y2="217.5" stroke="#E5534B" stroke-width="3"><animate attributeName="opacity" values="1;0.15;1" dur="3.6s" begin="8.51s" repeatCount="indefinite"/></line>
+    <line x1="867.0" y1="122.2" x2="853.4" y2="118.9" stroke="#E5534B" stroke-width="3"><animate attributeName="opacity" values="1;0.15;1" dur="3.6s" begin="15.17s" repeatCount="indefinite"/></line>
+    </g>
+    <g>
+      <path d="M 935.0 55.0 A 84 84 0 0 1 999.3 85.0" stroke="url(#scanGrad)" stroke-width="4" fill="none" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" from="0 935.0 139.0" to="360 935.0 139.0" dur="12s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <g font-family="'Cascadia Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" text-anchor="middle">
+      <text x="935.0" y="145.0" font-size="30" font-weight="700" fill="#EAF5EE">52</text>
+      <text x="935.0" y="165.0" font-size="9" fill="#93B7A5" letter-spacing="2">WORLDS ALIVE</text>
+    </g>
+  </g>
+</svg>

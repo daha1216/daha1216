@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<style>
+  :root { --bg:#fff; --fg:#1f2328; --border:#d1d9e0; --muted:#59636e; }
+  .dark { --bg:#0d1117; --fg:#e6edf3; --border:#3d444d; --muted:#9198a1; }
+  * { box-sizing:border-box; margin:0; }
+  body { background:#8b949e22; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Arial,"PingFang SC","Microsoft YaHei",sans-serif; }
+  .gh { background:var(--bg); color:var(--fg); max-width:832px; margin:24px auto; padding:32px; border-radius:6px; }
+  .gh img { max-width:100%; }
+  p { margin:0 0 16px; line-height:1.6; }
+  h2 { font-size:1.5em; font-weight:600; padding-bottom:.3em; border-bottom:1px solid var(--border); margin:24px 0 16px; }
+  table { border-collapse:collapse; margin:0 0 16px; width:100%; }
+  td, th { border:1px solid var(--border); padding:6px 13px; }
+  tr:nth-child(2) td { background:var(--bg); }
+  a { color:#0969da; text-decoration:none; }
+  .dark a { color:#4493f8; }
+  blockquote { border-left:.25em solid var(--border); color:var(--muted); padding:0 1em; margin:0 0 16px; }
+  blockquote p { margin:0 0 8px; }
+  sub { color:var(--muted); font-size:.82em; }
+  .center { text-align:center; margin-bottom:16px; }
+  details { border:1px solid var(--border); border-radius:6px; padding:8px 16px; margin:0 0 16px; }
+  summary { cursor:pointer; font-weight:600; }
+  hr { border:0; border-top:2px solid var(--border); margin:24px 0; }
+  .badge-label { font:11px/1 ui-monospace,Consolas,monospace; background:#0A2E24; color:#EAF5EE; padding:4px 6px; border-radius:3px 0 0 3px; }
+  .badge-value { font:11px/1 ui-monospace,Consolas,monospace; background:#C9924C; color:#fff; padding:4px 6px; border-radius:0 3px 3px 0; }
+  .badge-value.red { background:#E5534B; }
+  code { background:var(--bg); border:1px solid var(--border); border-radius:6px; padding:.2em .4em; font-size:85%; font-family:ui-monospace,Consolas,monospace; }
+</style>
+</head>
+<body>
+
+<!-- ============== LIGHT MODE ============== -->
+<div class="gh" id="light">
+  <img src="assets/board-hero.svg" width="100%" alt="hero" />
+  <p style="margin-top:16px">欢迎来到我的背板。我围绕 <a href="#">DeepSeek Harness</a>（DSH）——一个「万物皆插件」的本地 AI Agent 运行时——建造完整生态：观测它、记住它、回溯它、把它装进口袋。下面的每一个仓库，都是插在这块板上运转的模块。</p>
+
+  <h2>模块档案 · MODULE DATASHEET</h2>
+  <table>
+    <tr><td><b>定位</b></td><td>本地优先 AI Agent 生态 · 独立建造者</td></tr>
+    <tr><td><b>内核</b></td><td><a href="#">DeepSeek Harness</a> — Everything is a Plugin</td></tr>
+    <tr><td><b>旗舰</b></td><td><code>dsh-adult-tension</code> · 52 世界叙事引擎 · 18+</td></tr>
+    <tr><td><b>语言</b></td><td>中文 · TypeScript / Python / PowerShell</td></tr>
+    <tr><td><b>节拍</b></td><td>持续插拔中 · 每周有模块更新</td></tr>
+  </table>
+
+  <a href="#"><img src="assets/module-tension.svg" width="100%" alt="flagship" /></a>
+  <p class="center"><span class="badge-label">stars</span><span class="badge-value">78</span> &nbsp; <span class="badge-label">18+</span><span class="badge-value red">剧情内容</span></p>
+
+  <h2>已插拔模块 · SEATED MODULES</h2>
+  <table width="100%">
+    <tr><td><a href="#"><img src="assets/modules/u1.svg" width="100%" alt=""></a></td><td><a href="#"><img src="assets/modules/u2.svg" width="100%" alt=""></a></td></tr>
+    <tr><td><a href="#"><img src="assets/modules/u3.svg" width="100%" alt=""></a></td><td><a href="#"><img src="assets/modules/u4.svg" width="100%" alt=""></a></td></tr>
+    <tr><td><a href="#"><img src="assets/modules/u5.svg" width="100%" alt=""></a></td><td><a href="#"><img src="assets/modules/u6.svg" width="100%" alt=""></a></td></tr>
+    <tr><td><a href="#"><img src="assets/modules/u7.svg" width="100%" alt=""></a></td><td><a href="#"><img src="assets/modules/u8.svg" width="100%" alt=""></a></td></tr>
+  </table>
+
+  <blockquote>
+    <p><b>「万物皆插件——包括这个主页。」</b></p>
+    <p><sub>THIS PROFILE IS ITSELF A MODULE, SEATED ON ITS OWN BACKPLANE.</sub></p>
+  </blockquote>
+
+  <details><summary><b>工程日志 · ENGINEERING LOG</b></summary><p style="margin-top:8px">…（折叠内容略）</p></details>
+  <hr>
+  <sub>REV 2.0 · 2026-W40 · DESIGNED &amp; MAINTAINED BY <a href="#">DAHA1216</a> ON A GREEN BOARD</sub>
+</div>
+
+<!-- ============== DARK MODE ============== -->
+<div class="gh dark">
+  <img src="assets/board-hero.svg" width="100%" alt="hero" />
+  <p style="margin-top:16px">欢迎来到我的背板。我围绕 <a href="#">DeepSeek Harness</a>（DSH）——一个「万物皆插件」的本地 AI Agent 运行时——建造完整生态：观测它、记住它、回溯它、把它装进口袋。下面的每一个仓库，都是插在这块板上运转的模块。</p>
+
+  <h2>模块档案 · MODULE DATASHEET</h2>
+  <table>
+    <tr><td><b>定位</b></td><td>本地优先 AI Agent 生态 · 独立建造者</td></tr>
+    <tr><td><b>内核</b></td><td><a href="#">DeepSeek Harness</a> — Everything is a Plugin</td></tr>
+    <tr><td><b>旗舰</b></td><td><code>dsh-adult-tension</code> · 52 世界叙事引擎 · 18+</td></tr>
+    <tr><td><b>语言</b></td><td>中文 · TypeScript / Python / PowerShell</td></tr>
+    <tr><td><b>节拍</b></td><td>持续插拔中 · 每周有模块更新</td></tr>
+  </table>
+
+  <a href="#"><img src="assets/module-tension.svg" width="100%" alt="flagship" /></a>
+  <p class="center"><span class="badge-label">stars</span><span class="badge-value">78</span> &nbsp; <span class="badge-label">18+</span><span class="badge-value red">剧情内容</span></p>
+
+  <h2>已插拔模块 · SEATED MODULES</h2>
+  <table width="100%">
+    <tr><td><a href="#"><img src="assets/modules/u1.svg" width="100%" alt=""></a></td><td><a href="#"><img src="assets/modules/u2.svg" width="100%" alt=""></a></td></tr>
+    <tr><td><a href="#"><img src="assets/modules/u3.svg" width="100%" alt=""></a></td><td><a href="#"><img src="assets/modules/u4.svg" width="100%" alt=""></a></td></tr>
+    <tr><td><a href="#"><img src="assets/modules/u5.svg" width="100%" alt=""></a></td><td><a href="#"><img src="assets/modules/u6.svg" width="100%" alt=""></a></td></tr>
+    <tr><td><a href="#"><img src="assets/modules/u7.svg" width="100%" alt=""></a></td><td><a href="#"><img src="assets/modules/u8.svg" width="100%" alt=""></a></td></tr>
+  </table>
+
+  <blockquote>
+    <p><b>「万物皆插件——包括这个主页。」</b></p>
+    <p><sub>THIS PROFILE IS ITSELF A MODULE, SEATED ON ITS OWN BACKPLANE.</sub></p>
+  </blockquote>
+
+  <details><summary><b>工程日志 · ENGINEERING LOG</b></summary><p style="margin-top:8px">…（折叠内容略）</p></details>
+  <hr>
+  <sub>REV 2.0 · 2026-W40 · DESIGNED &amp; MAINTAINED BY <a href="#">DAHA1216</a> ON A GREEN BOARD</sub>
+</div>
+
+</body>
+</html>
