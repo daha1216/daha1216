@@ -1,0 +1,8 @@
+<svg viewBox="0 0 1200 160" width="1200" height="160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="模块。每个模块只做一件事。">
+<style>
+.sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif}
+.mono{font-family:ui-monospace,'SF Mono','Cascadia Mono','Cascadia Code',Consolas,'Courier New',monospace}
+</style>
+<text x="48" y="86" class="sans" font-size="40" font-weight="600" fill="#F5F5F7">模块。</text>
+<text x="48" y="126" class="sans" font-size="21" fill="#8B949E">每个模块只做一件事。</text>
+</svg>
