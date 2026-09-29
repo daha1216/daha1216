@@ -73,18 +73,18 @@ def hero(theme):
     c = THEMES[theme]
     ci = 1 if theme == "dark" else 0
     b = []
-    b.append(t(600, 92, "DEEPSEEK HARNESS · ECOSYSTEM", "mono", 13, c["sub"], ls=5, anchor="middle"))
-    b.append(t(600, 210, "万物皆插件。", "sans", 96, c["ink"], weight=700, ls=1, anchor="middle"))
-    b.append(t(600, 256, "观测它、记住它、回溯它、把它装进口袋。", "sans", 21, c["sub"], anchor="middle"))
+    b.append(t(600, 92, "GITHUB · @DAHA1216", "mono", 13, c["sub"], ls=5, anchor="middle"))
+    b.append(t(600, 210, "你好，我是 daha。", "sans", 96, c["ink"], weight=700, ls=1, anchor="middle"))
+    b.append(t(600, 256, "我为 AI Agent 造工具，也造会自己运转的世界。", "sans", 21, c["sub"], anchor="middle"))
     # CTA 行：蓝胶囊 + 幽灵胶囊
-    b.append(f'<rect x="407" y="302" width="240" height="42" rx="21" fill="{c["cta"]}"/>')
-    b.append(t(527, 329, "旗舰 · dsh-adult-tension", "sans", 15, "#FFFFFF", anchor="middle"))
-    b.append(f'<rect x="663" y="302.5" width="132" height="41" rx="20.5" fill="none" stroke="{c["ghost"]}" stroke-width="1"/>')
-    b.append(t(729, 329, "浏览模块 ›", "sans", 15, c["ink"], anchor="middle"))
+    b.append(f'<rect x="402" y="302" width="252" height="42" rx="21" fill="{c["cta"]}"/>')
+    b.append(t(528, 329, "代表作 · dsh-adult-tension", "sans", 15, "#FFFFFF", anchor="middle"))
+    b.append(f'<rect x="670" y="302.5" width="128" height="41" rx="20.5" fill="none" stroke="{c["ghost"]}" stroke-width="1"/>')
+    b.append(t(734, 329, "全部作品 ›", "sans", 15, c["ink"], anchor="middle"))
     # 9 枚饰面样块（旗舰 + 8 模块）
     for i, (hanzi, cl, cd) in enumerate(CHIPS):
         b.append(chip(330 + i * 62, 384, 44, hanzi, cd if ci else cl, 20))
-    return svg(1200, 470, "\n".join(b), "万物皆插件。— DeepSeek Harness 生态")
+    return svg(1200, 470, "\n".join(b), "你好，我是 daha。— daha 的个人主页")
 
 
 # ---------------------------------------------------------------- flagship 色带
@@ -111,9 +111,9 @@ def flagship(theme):
 def modules_head(theme):
     c = THEMES[theme]
     b = []
-    b.append(t(48, 86, "模块。", "sans", 40, c["ink"], weight=600))
-    b.append(t(48, 126, "每个模块只做一件事。", "sans", 21, c["sub"]))
-    return svg(1200, 160, "\n".join(b), "模块。每个模块只做一件事。")
+    b.append(t(48, 86, "我在造的东西。", "sans", 40, c["ink"], weight=600))
+    b.append(t(48, 126, "每个只做一件事，加起来是一整个生态。", "sans", 21, c["sub"]))
+    return svg(1200, 160, "\n".join(b), "我在造的东西。每个只做一件事，加起来是一整个生态。")
 
 
 # ---------------------------------------------------------------- 模块卡
@@ -136,7 +136,7 @@ def footer(theme):
     b = []
     b.append(f'<rect width="1200" height="110" fill="{c["band"]}"/>')
     b.append(t(600, 47, "每个模块只做一件事 · 观测优先于控制 · 本地优先，云可选", "sans", 13, c["sub"], anchor="middle"))
-    b.append(t(600, 73, "REV 4.0 · 2026 · DESIGNED WITH RESTRAINT BY DAHA", "mono", 11, c["faint"], ls=2, anchor="middle"))
+    b.append(t(600, 73, "REV 4.0 · 2026 · DESIGNED BY DAHA · WITH RESTRAINT", "mono", 11, c["faint"], ls=2, anchor="middle"))
     return svg(1200, 110, "\n".join(b), "页脚")
 
 

@@ -1,9 +1,9 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/gallery/hero-dark.svg">
-  <img src="./assets/gallery/hero-light.svg" width="100%" alt="万物皆插件。— DeepSeek Harness 生态">
+  <img src="./assets/gallery/hero-light.svg" width="100%" alt="你好，我是 daha。— 个人主页">
 </picture>
 
-我在为 [DeepSeek Harness](https://github.com/daha1216/deepseek-harness)（DSH）建造一整个生态——一个「万物皆插件」的本地 AI Agent 运行时。观测它、记住它、回溯它、把它装进口袋。
+你好，我是 **daha**。我为 [DeepSeek Harness](https://github.com/daha1216/deepseek-harness)（DSH）造工具——万物皆插件，每个模块只做一件事；也写会自己运转的叙事世界。
 
 <a href="https://github.com/daha1216/dsh-adult-tension">
   <picture>
@@ -28,7 +28,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/gallery/modules-head-dark.svg">
-  <img src="./assets/gallery/modules-head-light.svg" width="100%" alt="模块。每个模块只做一件事。">
+  <img src="./assets/gallery/modules-head-light.svg" width="100%" alt="我在造的东西。">
 </picture>
 
 | | |
@@ -43,6 +43,7 @@
 
 <br/>
 
+- **定位** — 这是 daha 的**个人主页**，不是 DSH 的产品发布页：以白色画廊陈列「我在造的东西」，生态叙事退到作品背后。
 - **设计体系** — Apple 白色画廊（REV 4.0）：纯白画布 × `#F5F5F7` 交替色带产生节奏，28px 圆角、零阴影、零边框。界面保持单色（墨 `#1D1D1F` · 次级 `#6E6E73` · 钢灰 `#86868B`），只保留一条蓝色线索——`#0071E3` 胶囊 CTA 与 `#0066CC` 行内链接；赭 `#B64400` 裸文字状态标；彩色只存在于模块「饰面样块」（iOS 系统色浅/深两套）。全部资产双模式，经 `<picture>` + `prefers-color-scheme` 自适应，徽章亦双源同化进画布。规格详见 [DESIGN.md](./DESIGN.md)。
 - **备份** — REV 3.0（Apple 白卡 + 投影体系）封存于 [`backup/rev3-20260930`](https://github.com/daha1216/daha1216/tree/backup/rev3-20260930)；初代白卡 v1 于 [`backup/pre-redesign-20260930`](https://github.com/daha1216/daha1216/tree/backup/pre-redesign-20260930)；PCB 背板草案于 [`backup/pcb-draft-20260930`](https://github.com/daha1216/daha1216/tree/backup/pcb-draft-20260930)。
 - **维护哲学** — 每个模块只做一件事 · 观测优先于控制 · 本地优先，云可选。
