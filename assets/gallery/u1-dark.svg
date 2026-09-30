@@ -1,13 +1,22 @@
-<svg viewBox="0 0 560 300" width="560" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="dsh-plugin-collection — 插件精选目录 · 一键安装">
+<svg viewBox="0 0 560 320" width="560" height="320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="dsh-plugin-collection — 插件精选目录 · 一键安装">
 <style>
 .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif}
 .mono{font-family:ui-monospace,'SF Mono','Cascadia Mono','Cascadia Code',Consolas,'Courier New',monospace}
 </style>
-<defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A6CFF"/><stop offset="1" stop-color="#3FA9F5"/></linearGradient></defs>
-<rect width="560" height="300" rx="28" fill="url(#g1)"/>
-<circle cx="496" cy="20" r="120" fill="#FFFFFF" opacity="0.10"/>
-<circle cx="530" cy="90" r="48" fill="#FFFFFF" opacity="0.10"/>
-<text x="48" y="160" class="mono" font-size="26" font-weight="600" fill="#FFFFFF">dsh-plugin-collection</text>
-<text x="48" y="198" class="sans" font-size="17" fill="#FFFFFF" opacity="0.85">插件精选目录 · 一键安装</text>
-<text x="48" y="244" class="sans" font-size="16" font-weight="600" fill="#FFFFFF">查看 ›</text>
+<rect width="560" height="320" fill="#161B22"/>
+<defs><clipPath id="clip1dark"><rect x="10" y="10" width="540" height="300" rx="28"/></clipPath></defs>
+<rect x="10" y="10" width="540" height="300" rx="28" fill="#21262D"/>
+<text x="38" y="68" class="mono" font-size="24" font-weight="600" fill="#F5F5F7">dsh-plugin-collection</text>
+<text x="38" y="98" class="sans" font-size="15" fill="#8B949E">插件精选目录 · 一键安装</text>
+<text x="38" y="130" class="sans" font-size="14" font-weight="500" fill="#2997FF">了解更多 ›</text>
+<g clip-path="url(#clip1dark)">
+<rect x="191" y="189" width="34" height="34" rx="10" fill="#0A84FF"/>
+<rect x="239" y="189" width="34" height="34" rx="10" fill="#30D158"/>
+<rect x="287" y="189" width="34" height="34" rx="10" fill="#5E5CE6"/>
+<rect x="335" y="189" width="34" height="34" rx="10" fill="#64D2FF"/>
+<rect x="191" y="237" width="34" height="34" rx="10" fill="#BF5AF2"/>
+<rect x="239" y="237" width="34" height="34" rx="10" fill="#FF9F0A"/>
+<rect x="287" y="237" width="34" height="34" rx="10" fill="#FF375F"/>
+<rect x="335" y="237" width="34" height="34" rx="10" fill="#98989D"/>
+</g>
 </svg>
