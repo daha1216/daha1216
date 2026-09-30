@@ -1,12 +1,14 @@
-<svg viewBox="0 0 560 150" width="560" height="150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="dsh-better-display 沉浸式阅读 · 步骤自动折叠">
+<svg viewBox="0 0 560 300" width="560" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="dsh-better-display — 沉浸式阅读 · 步骤自动折叠">
 <style>
 .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif}
 .mono{font-family:ui-monospace,'SF Mono','Cascadia Mono','Cascadia Code',Consolas,'Courier New',monospace}
 </style>
-<rect width="560" height="150" rx="28" fill="#161B22"/>
-<rect x="32" y="47" width="56" height="56" rx="17.8" fill="#FF9F0A"/>
-<text x="60.0" y="83.6" class="sans" font-size="24" font-weight="600" fill="#FFFFFF" text-anchor="middle">阅</text>
-<text x="110" y="70" class="mono" font-size="19" font-weight="600" fill="#F5F5F7">dsh-better-display</text>
-<text x="110" y="97" class="sans" font-size="14" fill="#8B949E">沉浸式阅读 · 步骤自动折叠</text>
-<text x="514" y="83" class="sans" font-size="22" fill="#6E7681" text-anchor="middle">&#8250;</text>
+<defs><linearGradient id="g6" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E07818"/><stop offset="1" stop-color="#F5A53C"/></linearGradient></defs>
+<rect width="560" height="300" rx="28" fill="url(#g6)"/>
+<circle cx="496" cy="20" r="120" fill="#FFFFFF" opacity="0.10"/>
+<circle cx="530" cy="90" r="48" fill="#FFFFFF" opacity="0.10"/>
+<text x="48" y="152" class="sans" font-size="96" font-weight="600" fill="#FFFFFF">阅</text>
+<text x="48" y="198" class="mono" font-size="20" font-weight="600" fill="#FFFFFF">dsh-better-display</text>
+<text x="48" y="226" class="sans" font-size="15" fill="#FFFFFF" opacity="0.85">沉浸式阅读 · 步骤自动折叠</text>
+<text x="48" y="264" class="sans" font-size="15" font-weight="600" fill="#FFFFFF">查看 ›</text>
 </svg>
