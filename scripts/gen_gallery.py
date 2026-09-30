@@ -21,14 +21,6 @@ THEMES = {
                  ghost="#6E7681"),
 }
 
-# 模块身份：汉字 + iOS 系统色（hero 饰面样块用，浅 / 深）
-CHIPS = [
-    ("剧", "#FF375F", "#FF6482"),
-    ("目", "#007AFF", "#0A84FF"), ("袋", "#34C759", "#30D158"), ("观", "#5856D6", "#5E5CE6"),
-    ("溯", "#30B0C7", "#40CBE0"), ("忆", "#AF52DE", "#BF5AF2"), ("阅", "#FF9500", "#FF9F0A"),
-    ("字", "#FF2D55", "#FF375F"), ("规", "#8E8E93", "#98989D"),
-]
-
 # 模块瓷砖渐变（产品图，浅深同图）
 GRADS = {
     1: ("#0A6CFF", "#3FA9F5"), 2: ("#1D9A4E", "#4FCB6B"), 3: ("#4643D2", "#7B6CF0"),
@@ -75,7 +67,6 @@ def chip(x, y, size, hanzi, color, hanzi_size):
 # ---------------------------------------------------------------- hero（保留）
 def hero(theme):
     c = THEMES[theme]
-    ci = 1 if theme == "dark" else 0
     b = []
     b.append(t(600, 92, "GITHUB · @DAHA1216", "mono", 13, c["sub"], ls=5, anchor="middle"))
     b.append(t(600, 210, "你好，我是 daha。", "sans", 96, c["ink"], weight=700, ls=1, anchor="middle"))
@@ -84,9 +75,7 @@ def hero(theme):
     b.append(t(528, 329, "代表作 · dsh-adult-tension", "sans", 15, "#FFFFFF", anchor="middle"))
     b.append(f'<rect x="670" y="302.5" width="128" height="41" rx="20.5" fill="none" stroke="{c["ghost"]}" stroke-width="1"/>')
     b.append(t(734, 329, "全部作品 ›", "sans", 15, c["ink"], anchor="middle"))
-    for i, (hanzi, cl, cd) in enumerate(CHIPS):
-        b.append(chip(330 + i * 62, 384, 44, hanzi, cd if ci else cl, 20))
-    return svg(1200, 470, "\n".join(b), "你好，我是 daha。— daha 的个人主页")
+    return svg(1200, 400, "\n".join(b), "你好，我是 daha。— daha 的个人主页")
 
 
 # ---------------------------------------------------------------- 旗舰：色带 + 世界轨道产品图
@@ -117,7 +106,6 @@ def flagship(theme):
         b.append(f'<circle cx="{x}" cy="{y}" r="1.5" fill="#FFFFFF" opacity="{op}"/>')
     b.append('<circle cx="600" cy="480" r="84" fill="#FF375F" opacity="0.18"/>')
     b.append('<circle cx="600" cy="480" r="62" fill="url(#orb)"/>')
-    b.append(t(600, 501, "剧", "sans", 60, "#FFFFFF", weight=600, anchor="middle"))
     return svg(1200, 680, "\n".join(b), "dsh-adult-tension — 世界，自行运转。")
 
 
@@ -132,7 +120,6 @@ def modules_head(theme):
 
 # ---------------------------------------------------------------- 模块瓷砖（整面渐变 = 产品图，浅深同图）
 def tile(repo, role, chip_i, theme):
-    hanzi, _, _ = CHIPS[chip_i]
     top, bottom = GRADS[chip_i]
     gid = f"g{chip_i}"
     b = []
@@ -142,10 +129,9 @@ def tile(repo, role, chip_i, theme):
     b.append(f'<rect width="560" height="300" rx="28" fill="url(#{gid})"/>')
     b.append('<circle cx="496" cy="20" r="120" fill="#FFFFFF" opacity="0.10"/>')
     b.append('<circle cx="530" cy="90" r="48" fill="#FFFFFF" opacity="0.10"/>')
-    b.append(t(48, 152, hanzi, "sans", 96, "#FFFFFF", weight=600))
-    b.append(t(48, 198, repo, "mono", 20, "#FFFFFF", weight=600))
-    b.append(t(48, 226, role, "sans", 15, "#FFFFFF", opacity=0.85))
-    b.append(t(48, 264, "查看 ›", "sans", 15, "#FFFFFF", weight=600))
+    b.append(t(48, 160, repo, "mono", 26, "#FFFFFF", weight=600))
+    b.append(t(48, 198, role, "sans", 17, "#FFFFFF", opacity=0.85))
+    b.append(t(48, 244, "查看 ›", "sans", 16, "#FFFFFF", weight=600))
     return svg(560, 300, "\n".join(b), f"{repo} — {role}")
 
 

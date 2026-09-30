@@ -30,5 +30,4 @@
 <circle cx="200" cy="540" r="1.5" fill="#FFFFFF" opacity="0.25"/>
 <circle cx="600" cy="480" r="84" fill="#FF375F" opacity="0.18"/>
 <circle cx="600" cy="480" r="62" fill="url(#orb)"/>
-<text x="600" y="501" class="sans" font-size="60" font-weight="600" fill="#FFFFFF" text-anchor="middle">剧</text>
 </svg>
