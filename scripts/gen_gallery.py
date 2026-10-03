@@ -92,7 +92,7 @@ def cover():
          f'<g {sh}>',
          t(102, 112, "GITHUB · @DAHA1216", "sans", 26, "#FFFFFF", weight=600, ls=1),
          t(94, 222, "你好，我是 daha。", "sans", 92, "#FFFFFF", weight=600, ls=-1.2),
-         t(102, 290, "AI Agent 白日梦想家，打造独属自己的世界。", "sans", 34, "#FFFFFF"),
+         t(102, 296, "AI Agent 白日梦想家，打造独属自己的世界。", "sans", 38, "#FFFFFF"),
          "</g>"]
     return svg(W, H + 6 * 16, "\n".join(b), "你好，我是 daha。AI Agent 白日梦想家，打造独属自己的世界。（像素画：晴空与积云下，海面上一座小岛，岛上有一棵树和一间木屋）")
 
@@ -253,7 +253,7 @@ def main():
             with open(path, "w", encoding="utf-8", newline="\n") as f:
                 f.write(svg_text)
             n += 1
-    with open(os.path.join(OUT, "cover-v2.svg"), "w", encoding="utf-8", newline="\n") as f:
+    with open(os.path.join(OUT, "cover-v3.svg"), "w", encoding="utf-8", newline="\n") as f:
         f.write(cover())
     n += 1
     print(f"REV 8.0 · {n} SVG -> {os.path.normpath(OUT)}")
