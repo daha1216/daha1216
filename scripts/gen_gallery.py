@@ -253,7 +253,7 @@ def main():
             with open(path, "w", encoding="utf-8", newline="\n") as f:
                 f.write(svg_text)
             n += 1
-    with open(os.path.join(OUT, "cover.svg"), "w", encoding="utf-8", newline="\n") as f:
+    with open(os.path.join(OUT, "cover-v2.svg"), "w", encoding="utf-8", newline="\n") as f:
         f.write(cover())
     n += 1
     print(f"REV 8.0 · {n} SVG -> {os.path.normpath(OUT)}")
