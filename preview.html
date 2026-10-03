@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
-<title>preview · daha1216 — iPhone Duo 白色画廊 REV 5.0</title>
+<title>preview · daha1216 — REV 8.0</title>
 <style>
   :root { --page:#FFFFFF; --ink:#1F2328; --sub:#59636E; --link:#0969DA; --border:#D1D9E0; }
   html.dark { --page:#0D1117; --ink:#F0F6FC; --sub:#9198A1; --link:#4493F8; --border:#3D444D; }
@@ -13,7 +13,7 @@
          padding:10px 24px; background:var(--page); border-bottom:1px solid var(--border); }
   .bar button { font:600 13px/1 inherit; font-family:inherit; padding:8px 16px; border-radius:9999px;
          border:1px solid var(--border); background:transparent; color:var(--ink); cursor:pointer; }
-  .bar button.primary { background:#0071E3; border-color:#0071E3; color:#fff; }
+  .bar button.primary { background:#137FB0; border-color:#137FB0; color:#fff; }
   article { max-width:832px; margin:0 auto; padding:32px 32px 64px; font-size:16px; line-height:1.6; }
   article p { color:var(--ink); }
   article img { max-width:100%; height:auto; display:block; margin:8px auto; }
@@ -26,47 +26,50 @@
   summary { color:var(--ink); cursor:pointer; }
   .footnote { text-align:center; color:var(--sub); font-size:12px; margin-top:8px; }
   .footnote a { color:var(--link); text-decoration:none; }
+  table.gh td, table.gh th { width:auto; padding:6px 13px; border:1px solid var(--border); text-align:left; }
+  table.gh a, article p a { color:var(--link); text-decoration:none; }
+  sub { font-size:11px; color:var(--sub); }
 </style>
 </head>
 <body>
 <div class="bar">
-  <span style="font:600 13px/1.2 inherit;color:var(--sub)">daha1216 / README · REV 5.0 iPhone Duo 白色画廊 · 832px 容器模拟</span>
+  <span style="font:600 13px/1.2 inherit;color:var(--sub)">daha1216 / README · REV 8.0 海上小屋 · 群岛 · 832px 容器模拟</span>
   <button id="toggle" class="primary" onclick="flip()">◐ 切换深色模式</button>
 </div>
 <article id="md">
 
-<img data-sw="hero" src="assets/gallery/hero-light.svg" width="100%" alt="hero">
+<img src="assets/gallery/cover.svg" width="100%" alt="cover" style="margin:0">
+<img data-sw="hero" style="margin:0" src="assets/gallery/hero-light.svg" width="100%" alt="hero">
 
 <a href="https://github.com/daha1216/dsh-adult-tension" style="display:block">
   <img data-sw="flagship" src="assets/gallery/flagship-light.svg" width="100%" alt="flagship">
 </a>
 
 <div class="badges">
-  <img src="https://img.shields.io/github/stars/daha1216/dsh-adult-tension?style=flat-square&label=%E2%98%85&labelColor=FFFFFF&color=0071E3" alt="stars">
-  <img src="https://img.shields.io/badge/18%2B-%E5%89%A7%E6%83%85%E5%86%85%E5%AE%B9-B64400?style=flat-square&labelColor=FFFFFF" alt="18+">
+  <img src="https://img.shields.io/github/stars/daha1216/dsh-adult-tension?style=flat-square&label=%E2%98%85&labelColor=FFFFFF&color=137FB0" alt="stars">
+  <img src="https://img.shields.io/badge/18%2B-%E5%89%A7%E6%83%85%E5%86%85%E5%AE%B9-A85A1E?style=flat-square&labelColor=FFFFFF" alt="18+">
 </div>
 
-<img data-sw="modules-head" src="assets/gallery/modules-head-light.svg" width="100%" alt="modules-head">
+<a href="https://github.com/daha1216/dsh-plugin-collection" style="display:block">
+  <img data-sw="ecosystem" src="assets/gallery/ecosystem-light.svg" width="100%" alt="ecosystem">
+</a>
 
-<table>
-<tr><td><a href="https://github.com/daha1216/dsh-plugin-collection"><img data-sw="u1" src="assets/gallery/u1-light.svg" width="100%" alt="u1"></a></td><td><a href="https://github.com/daha1216/dsh-pocket"><img data-sw="u2" src="assets/gallery/u2-light.svg" width="100%" alt="u2"></a></td></tr>
-<tr><td><a href="https://github.com/daha1216/dsh-watcher"><img data-sw="u3" src="assets/gallery/u3-light.svg" width="100%" alt="u3"></a></td><td><a href="https://github.com/daha1216/dsh-retrace"><img data-sw="u4" src="assets/gallery/u4-light.svg" width="100%" alt="u4"></a></td></tr>
-<tr><td><a href="https://github.com/daha1216/billion-context-dsh"><img data-sw="u5" src="assets/gallery/u5-light.svg" width="100%" alt="u5"></a></td><td><a href="https://github.com/daha1216/dsh-better-display"><img data-sw="u6" src="assets/gallery/u6-light.svg" width="100%" alt="u6"></a></td></tr>
-<tr><td><a href="https://github.com/daha1216/dsh-font-customizer"><img data-sw="u7" src="assets/gallery/u7-light.svg" width="100%" alt="u7"></a></td><td><a href="https://github.com/daha1216/dsh-agents-md"><img data-sw="u8" src="assets/gallery/u8-light.svg" width="100%" alt="u8"></a></td></tr>
+<table class="gh"><tr><th></th><th>插件</th><th>做什么</th></tr>
+<tr><td>代表作</td><td><a href="https://github.com/daha1216/dsh-adult-tension">dsh-adult-tension</a></td><td>18+ 成人互动叙事：活人感 NPC、数十个世界上千素材、开局随心定制、世界自行运转。</td></tr>
+<tr><td>入口</td><td><a href="https://github.com/daha1216/dsh-plugin-collection">dsh-plugin-collection</a></td><td>第三方插件精选目录，一键安装，条目指向作者原仓库</td></tr>
+<tr><td>会话</td><td><a href="https://github.com/daha1216/dsh-retrace">dsh-retrace</a></td><td>会话时光机：撤回 / 编辑重发 / 重新生成，产物版本化 <sub>fork</sub></td></tr>
+<tr><td>会话</td><td><a href="https://github.com/daha1216/dsh-better-display">dsh-better-display</a></td><td>沉浸式阅读：执行步骤自动折叠，MCP-App 交互沙箱 <sub>fork</sub></td></tr>
+<tr><td>观测</td><td><a href="https://github.com/daha1216/dsh-watcher">dsh-watcher</a></td><td>只读观测：模型耗时 / 费用统计，浮动面板</td></tr>
+<tr><td>观测</td><td><a href="https://github.com/daha1216/dsh-update-checker">dsh-update-checker</a></td><td>检查已装插件的上游更新与 changelog，只查不装</td></tr>
+<tr><td>上下文</td><td><a href="https://github.com/daha1216/billion-context-dsh">billion-context-dsh</a></td><td>模型自主决定何时压缩上下文（ACP）<sub>移植自 billion-context-pi</sub></td></tr>
+<tr><td>上下文</td><td><a href="https://github.com/daha1216/dsh-agents-md">dsh-agents-md</a></td><td>用户级全局 AGENTS.md：协作与反谄媚规则</td></tr>
+<tr><td>界面</td><td><a href="https://github.com/daha1216/dsh-pocket">dsh-pocket</a></td><td>手机扫码，同步操控电脑端 DSH</td></tr>
+<tr><td>界面</td><td><a href="https://github.com/daha1216/dsh-font-customizer">dsh-font-customizer</a></td><td>界面 / 代码字体与字号定制</td></tr>
 </table>
 
-<details>
-<summary><b>工程日志 · ENGINEERING LOG</b></summary>
-<br/>
-<p><b>定位</b> — 这是 daha 的个人主页，不是 DSH 的产品发布页：以白色画廊陈列「我在造的东西」，生态叙事退到作品背后。</p>
-<p><b>设计体系</b> — Apple 白色画廊（REV 4.2）：hero 之后全部为「产品瓷砖」语法——旗舰 = 全宽 #F5F5F7 色带 + 居中大标题 + 深色「世界轨道」产品图；模块 = 整面 iOS 渐变瓷砖（96px 身份汉字 + 仓库名 + 职责 + 白色链接）。界面单色，唯一蓝线 #0071E3/#0066CC；彩色只属于产品图，浅深两态同图。规格详见 DESIGN.md。</p>
-<p><b>备份</b> — REV 3.0（Apple 白卡 + 投影体系）封存于 backup/rev3-20260930；初代白卡 v1 于 backup/pre-redesign-20260930；PCB 背板草案于 backup/pcb-draft-20260930。</p>
-<p><b>维护哲学</b> — 每个模块只做一件事 · 观测优先于控制 · 本地优先，云可选。</p>
-</details>
+<p><b>DSH 之外</b> — <a href="https://github.com/daha1216/ClaudeGuard">ClaudeGuard</a>（Rust · Tauri 2）：Windows 上给 AI 桌面应用加一道网络出口门禁，只在约定代理出口放行，出口异常即刻熔断断网。</p>
 
 <img data-sw="footer" src="assets/gallery/footer-light.svg" width="100%" alt="footer">
-
-<p class="footnote"><a href="DESIGN.md">设计规格 · DESIGN.md ›</a></p>
 
 </article>
 <script>
@@ -75,10 +78,11 @@ function flip(){
   document.querySelectorAll('img[data-sw]').forEach(function(im){
     im.src = im.src.replace(/-(light|dark)\.svg$/, (dark?'-dark':'-light')+'.svg');
   });
-  document.querySelector('.badges img').src = 'https://img.shields.io/github/stars/daha1216/dsh-adult-tension?style=flat-square&label=%E2%98%85&labelColor=' + (dark?'0D1117':'FFFFFF') + '&color=0071E3';
-  document.querySelectorAll('.badges img')[1].src = 'https://img.shields.io/badge/18%2B-%E5%89%A7%E6%83%85%E5%86%85%E5%AE%B9-B64400?style=flat-square&labelColor=' + (dark?'0D1117':'FFFFFF');
+  document.querySelector('.badges img').src = 'https://img.shields.io/github/stars/daha1216/dsh-adult-tension?style=flat-square&label=%E2%98%85&labelColor=' + (dark?'0D1117':'FFFFFF') + '&color=137FB0';
+  document.querySelectorAll('.badges img')[1].src = 'https://img.shields.io/badge/18%2B-%E5%89%A7%E6%83%85%E5%86%85%E5%AE%B9-A85A1E?style=flat-square&labelColor=' + (dark?'0D1117':'FFFFFF');
   document.getElementById('toggle').textContent = dark ? '◑ 切换浅色模式' : '◐ 切换深色模式';
 }
+if (location.hash === '#dark') flip();
 </script>
 </body>
 </html>
