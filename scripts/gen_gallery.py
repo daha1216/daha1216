@@ -3,7 +3,7 @@
 首图是 assets/cover.webp（像素画：晴空、积云、海面、小岛与木屋），原样展示、不做任何改动；
 本文件生成的 SVG 全部围绕它：色板取自首图，微缩世界 / 像素小岛 / 像素涟漪呼应像素画语法。
 成对产出浅/深双主题 SVG 到 assets/gallery/。改资产一律改本文件再重新生成。
-hero = 首图下方的像素涟漪；主岛 = 代表作 + 52 格微缩世界拼图；
+首图底边自带像素涟漪；主岛 = 代表作 + 52 格微缩世界拼图；
 群岛 = 像素海图：码头（入口目录）→ 四座插件小岛；可点击的清单留给 README 文本表格。
 """
 import base64
@@ -77,7 +77,7 @@ COVER = os.path.join(os.path.dirname(__file__), "..", "assets", "cover.webp")
 
 
 def cover():
-    """首图合成：原图按字节 base64 内嵌（camo 下的 SVG 不能引用外部图片），左上晴空处叠身份排版。
+    """首图合成：原图按字节 base64 内嵌（camo 下的 SVG 不能引用外部图片），左上晴空处叠身份排版，底边接像素涟漪。
     原图文件 assets/cover.webp 本身不做任何改动。浅深两态共用。"""
     with open(COVER, "rb") as f:
         data = base64.b64encode(f.read()).decode("ascii")
@@ -87,17 +87,14 @@ def cover():
          '<feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#14506E" flood-opacity="0.35"/>'
          '</filter></defs>',
          f'<image href="data:image/webp;base64,{data}" x="0" y="0" width="{W}" height="{H}"/>',
+         # 像素涟漪直接画在首图底边：同一张 SVG，避免 GitHub 在两张 <img> 之间留缝
+         ripple(W, H, 6, cell=16),
          f'<g {sh}>',
          t(102, 112, "GITHUB · @DAHA1216", "sans", 26, "#FFFFFF", weight=600, ls=1),
          t(94, 222, "你好，我是 daha。", "sans", 92, "#FFFFFF", weight=600, ls=-1.2),
          t(102, 290, "AI Agent 白日梦想家，打造独属自己的世界。", "sans", 34, "#FFFFFF"),
          "</g>"]
-    return svg(W, H, "\n".join(b), "你好，我是 daha。AI Agent 白日梦想家，打造独属自己的世界。（像素画：晴空与积云下，海面上一座小岛，岛上有一棵树和一间木屋）")
-
-
-def hero(th, T):
-    """首图正下方的像素涟漪：把海面接进页面。"""
-    return svg(1200, 56, ripple(1200, 0, 7), "")
+    return svg(W, H + 6 * 16, "\n".join(b), "你好，我是 daha。AI Agent 白日梦想家，打造独属自己的世界。（像素画：晴空与积云下，海面上一座小岛，岛上有一棵树和一间木屋）")
 
 
 NIGHT = dict(sky=["#24476B", "#2B5277"], sea=["#2E5E73", "#336B80"], land=[TREE, "#355A34"])
@@ -249,7 +246,7 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     n = 0
     for th, T in THEMES.items():
-        files = {"hero": hero(th, T), "flagship": flagship(th, T),
+        files = {"flagship": flagship(th, T),
                  "ecosystem": ecosystem(th, T), "footer": footer(th, T)}
         for fname, svg_text in files.items():
             path = os.path.join(OUT, f"{fname}-{th}.svg")

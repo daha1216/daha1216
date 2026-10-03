@@ -1,5 +1,4 @@
 <img src="./assets/gallery/cover.svg" width="100%" alt="你好，我是 daha。AI Agent 白日梦想家，打造独属自己的世界。">
-<img src="./assets/gallery/hero-light.svg" width="100%" alt="">
 
 <a href="https://github.com/daha1216/dsh-adult-tension">
   <picture>
