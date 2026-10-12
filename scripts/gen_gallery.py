@@ -3,7 +3,7 @@
 首图是 assets/cover.webp（像素画：晴空、积云、海面、小岛与木屋），原样展示、不做任何改动；
 本文件生成的 SVG 全部围绕它：色板取自首图，微缩世界 / 像素小岛 / 像素涟漪呼应像素画语法。
 成对产出浅/深双主题 SVG 到 assets/gallery/。改资产一律改本文件再重新生成。
-首图底边自带像素涟漪；主岛 = 代表作 + 52 格微缩世界拼图；
+首图底边自带像素涟漪；主岛 = 代表作 + 52 格微缩世界拼图（装饰，不再一格一个世界）；
 群岛 = 像素海图：码头（入口目录）→ 四座插件小岛；可点击的清单留给 README 文本表格。
 """
 import base64
@@ -132,13 +132,13 @@ def world_tile(x0, y0, rnd, cell=9, lit=None):
 
 
 def flagship(th, T):
-    """主岛：代表作。右侧 52 格微缩世界拼图（13×4），一格一个世界；几盏灯在你不在场时自己亮灭。"""
+    """主岛：代表作。右侧 52 格微缩世界拼图（13×4），象征世界库；几盏灯在你不在场时自己亮灭。"""
     b = []
     b.append(t(64, 92, "主岛 · 代表作", "sans", 16, T["slate"], weight=600, ls=0.2))
     b.append(t(176, 92, "18+", "sans", 14, T["ember"], weight=600))
     b.append(t(64, 138, "dsh-adult-tension", "mono", 22, T["ink"], weight=600))
     b.append(t(64, 196, "世界，自行运转。", "sans", 40, T["ink"], weight=600))
-    b.append(t(64, 246, "52 个世界，上千素材。NPC 有自己的主意——", "sans", 17, T["slate"]))
+    b.append(t(64, 246, "211 个世界，上万素材。NPC 有自己的主意——", "sans", 17, T["slate"]))
     b.append(t(64, 274, "会拒绝、不迎合；你不在场时，世界照样往前走。", "sans", 17, T["slate"]))
     b.append(t(64, 322, "查看项目 ›", "sans", 17, T["link"], weight=500))
     rnd = random.Random(52)
@@ -151,10 +151,10 @@ def flagship(th, T):
         tiles.append(world_tile(x0 + c * (size + gap), y0 + r * (size + gap), rnd, lit=lights.get(i)))
     b.append(f'<g class="px">{"".join(tiles)}</g>')
     y_cap = y0 + 4 * (size + gap) + 26
-    b.append(t(x0, y_cap, "52 个世界 · 每格一个 · 全维 YAML 存档", "sans", 15, T["slate"]))
+    b.append(t(x0, y_cap, "211 个世界 · 全维 YAML 存档", "sans", 15, T["slate"]))
     b.append(sq(1146, y_cap - 5, 10, LAMP))
     b.append(t(1132, y_cap, "亮着灯：有人在行动", "sans", 15, T["slate"], anchor="end"))
-    return svg(1200, 380, "\n".join(b), "主岛 · dsh-adult-tension — 世界，自行运转。52 个世界，活人感 NPC，全维存档。")
+    return svg(1200, 380, "\n".join(b), "主岛 · dsh-adult-tension — 世界，自行运转。211 个世界，活人感 NPC，全维存档。")
 
 
 SAND = "#EBD3A0"

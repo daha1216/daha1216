@@ -3,7 +3,7 @@
 <a href="https://github.com/daha1216/dsh-adult-tension">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/gallery/flagship-dark.svg">
-    <img src="./assets/gallery/flagship-light.svg" width="100%" alt="主岛 · dsh-adult-tension — 世界，自行运转。52 个世界 · 活人感 NPC 自主决策 · 全维 YAML 存档">
+    <img src="./assets/gallery/flagship-light.svg" width="100%" alt="主岛 · dsh-adult-tension — 世界，自行运转。211 个世界 · 活人感 NPC 自主决策 · 全维 YAML 存档">
   </picture>
 </a>
 
@@ -30,7 +30,7 @@
 
 | | 插件 | 做什么 |
 |---|---|---|
-| 代表作 | [dsh-adult-tension](https://github.com/daha1216/dsh-adult-tension) | 18+ 成人互动叙事：活人感 NPC、数十个世界上千素材、开局随心定制、世界自行运转。 |
+| 代表作 | [dsh-adult-tension](https://github.com/daha1216/dsh-adult-tension) | 18+ 成人互动叙事：活人感 NPC、数百个世界上万素材、开局随心定制、世界自行运转。 |
 | 入口 | [dsh-plugin-collection](https://github.com/daha1216/dsh-plugin-collection) | 第三方插件精选目录，一键安装，条目指向作者原仓库 |
 | 会话 | [dsh-retrace](https://github.com/daha1216/dsh-retrace) | 会话时光机：撤回 / 编辑重发 / 重新生成，产物版本化 <sub>fork</sub> |
 | 会话 | [dsh-better-display](https://github.com/daha1216/dsh-better-display) | 沉浸式阅读：执行步骤自动折叠，MCP-App 交互沙箱 <sub>fork</sub> |
