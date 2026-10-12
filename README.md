@@ -2,8 +2,8 @@
 
 <a href="https://github.com/daha1216/dsh-adult-tension">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/gallery/flagship-dark.svg">
-    <img src="./assets/gallery/flagship-light.svg" width="100%" alt="主岛 · dsh-adult-tension — 世界，自行运转。211 个世界 · 活人感 NPC 自主决策 · 全维 YAML 存档">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/gallery/flagship-dark.svg?v=211">
+    <img src="./assets/gallery/flagship-light.svg?v=211" width="100%" alt="主岛 · dsh-adult-tension — 世界，自行运转。211 个世界 · 活人感 NPC 自主决策 · 全维 YAML 存档">
   </picture>
 </a>
 
